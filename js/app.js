@@ -2,7 +2,7 @@
    Author: Shreethemes
    Email: shreethemes@gmail.com
    Website: http://www.shreethemes.in/
-   Version: 1.0.0
+   Version: 1.1.0
    Created: May 2020
    File Description: Main Js file of the template
 */

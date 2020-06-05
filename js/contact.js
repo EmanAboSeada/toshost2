@@ -1,60 +1,31 @@
     // Working Contact Form
-    $('#contact-form').submit(function(e) {
-      e.preventDefault();
+    $('#contact-form').submit(function() {
         var action = $(this).attr('action');
-        var message = "";
-        if($('#name').val() == "" || $.trim($('#name').val()) == "") {
-          message = '<div class="error_message">You must enter your name.</div>';
-        } else if($('#email').val() == "" || $.trim($('#email').val()) == "") {
-          message = '<div class="error_message">Please enter a valid email address.</div>';
-        } else if($('#subject').val() == "" || $.trim($('#subject').val()) == "") {
-          message = '<div class="error_message">You must enter subject.</div>';
-        } else if($('#message').val() == "" || $.trim($('#message').val()) == "") {
-          message = '<div class="error_message">You must enter your message.</div>';
-        }
-        if(message != "") {
-          document.getElementById('message-box').innerHTML = message;
-          $('#message-box').slideDown('slow');
-          $('#cform img.contact-loader').fadeOut('slow', function() {
-              $(this).remove()
-          });
-          $('#submit').removeAttr('disabled');
-          $('#cform').slideUp('slow');
-          return false;
-        } else {
-          $("#message-box").slideUp(750, function() {
-              $('#message-box').hide();
 
-              $('#submit')
-                  .before('')
-                  .attr('disabled', 'disabled');
+        $("#message").slideUp(750, function() {
+            $('#message').hide();
 
-              $.post(action, {
-                      name: $('#name').val(),
-                      email: $('#email').val(),
-                      subject: $('#subject').val(),
-                      message: $('#message').val(),
-                  },
-                  function(data) {
-                      document.getElementById('message-box').innerHTML = data;
-                      $('#message-box').slideDown('slow');
-                      $('#cform img.contact-loader').fadeOut('slow', function() {
-                          $(this).remove()
-                      });
-                      $('#submit').removeAttr('disabled');
-                      $('#cform').slideUp('slow');
-                  }
-              ).fail(function() {
-                document.getElementById('message-box').innerHTML = "<fieldset><div id='success_page'><h3>Email Sent Successfully.</h3><p>Thank you, your message has been submitted to us.</p></div></fieldset>";
-                $('#message-box').slideDown('slow');
-                $('#cform img.contact-loader').fadeOut('slow', function() {
-                    $(this).remove()
-                });
-                $('#submit').removeAttr('disabled');
-                $('#cform').slideUp('slow');
-              });
-          });
-        }
+            $('#submit')
+                .before('')
+                .attr('disabled', 'disabled');
+
+            $.post(action, {
+                    name: $('#name').val(),
+                    email: $('#email').val(),
+                    comments: $('#comments').val(),
+                },
+                function(data) {
+                    document.getElementById('message').innerHTML = data;
+                    $('#message').slideDown('slow');
+                    $('#cform img.contact-loader').fadeOut('slow', function() {
+                        $(this).remove()
+                    });
+                    $('#submit').removeAttr('disabled');
+                    if (data.match('success') != null) $('#cform').slideUp('slow');
+                }
+            );
+
+        });
 
         return false;
 

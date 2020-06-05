@@ -258,6 +258,9 @@ nav a{
     #price,#question{
         background-color: #133568 !important;
     }
+    .search-section a{
+        font-size: calc(10px + 1vw);
+    }
 }
 @media only screen and (max-width: 991px) and (min-width: 415px){
     /* ipad*/
