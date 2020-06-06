@@ -29,28 +29,32 @@
 <body>
 	<!---start of the header section-->
 	<!---start header top item--->
-	<div class="px-3 header-top bg-primary my-class d-none d-lg-block">
+	<div class="px-3 header-top bg-primary my-class">
 		<div class="container py-1">
-			<div class=" justify-content-between align-items-baseline d-flex">
-				<div>
-					<a href="" class="text-white my-text mr-2">
-						<i class="fas fa-edit text-white"></i>
-						Blog</a>
-					<a href="" class="text-white"><img src="img/icons/uk.png" alt="uk flag" class="d-inline uk-flag">
-						English</a>
-				</div>
-				<div>
-					<a href="" class="text-white mx-2">
-						<i class="fas fa-shopping-cart text-white"></i>
-						Cart</a>
-					<a href="" class="text-white mx-2">
-						<i class="fas fa-map-marker-alt text-white"></i>
-						Contact</a>
-					<a href="" class="text-white mx-2">
-						<i class="fas fa-desktop text-white"></i>
-						Live Demo </a>
-					<a href="" class="text-white signin-btn ml-3"> Sign In </a></div>
-			</div>
+			<div class=" align-items-center d-flex">
+				<a href="" class="text-white d-flex flex-column flex-sm-row align-items-center justify-content-center">
+					<img src="img/icons/uk.png" alt="uk flag" class="mr-sm-2 uk-flag">
+					<p class="m-0">English</p>
+				</a>
+				<a href=""
+					class="text-white  mx-3 d-flex flex-column flex-sm-row align-items-center justify-content-center">
+					<i class="fas fa-edit text-white mr-sm-2"></i>
+					<p class="m-0">Blog</p>
+				</a>
+				<a href="" class="text-white d-flex flex-column flex-sm-row align-items-center justify-content-center">
+					<i class="fas fa-shopping-cart text-white mr-sm-2"></i>
+					<p class="m-0">Cart</p>
+				</a>
+				<a href=""
+					class="text-white mx-3 d-flex flex-column flex-sm-row align-items-center justify-content-center">
+					<i class="fas fa-map-marker-alt text-white mr-sm-2"></i>
+					<p class="m-0">Contact</p>
+				</a>
+				<a href="" class="text-white d-flex flex-column flex-sm-row align-items-center justify-content-center">
+					<i class="fas fa-desktop text-white mr-sm-2"></i>
+					<p class="m-0">Live Demo</p>
+				</a>
+				<a href="" class="text-white signin-btn ml-auto d-none d-sm-block"> Sign In </a></div>
 		</div>
 
 	</div>
@@ -112,7 +116,7 @@
 				<img src=" img/logo.png" alt=" Logo picture " />
 			</a>
 		</div>
-		<div id="sidenav" class="sidenav bg-primary d-block d-lg-none">
+		<div id="sidenav" class="sidenav bg-primary d-block d-lg-none h-100">
 			<span class="close-btn" onclick="closeNav()">&times;</span>
 			<ul class="navbar-nav flex-column align-items-start">
 				<li class="nav-item px-5 py-3 w-100 border-bottom"><a href=" " class="nav-link text-white">Home</a></li>
@@ -155,27 +159,8 @@
 				<li class="nav-item px-5 py-3 w-100 border-bottom"><a href=" " class="nav-link text-white">About Us </a>
 				</li>
 			</ul>
-			<div class="bg-secondary py-4 justify-content-between align-items-baseline d-flex flex-column">
-				<div class="px-5 py-3 w-100 border-bottom d-flex justify-content-between">
-					<a href="" class="text-white my-text">
-						<i class="fas fa-edit text-white"></i>
-						Blog</a>
-					<a href="" class="text-white"><img src="img/icons/uk.png" alt="uk flag"> English</a>
-				</div>
-				<div class="px-5 py-3 w-100 border-bottom d-flex justify-content-between">
-					<a href="" class="text-white">
-						<i class="fas fa-shopping-cart text-white"></i>
-						Cart</a>
-					<a href="" class="text-white">
-						<i class="fas fa-map-marker-alt text-white"></i>
-						Contact</a>
-				</div>
-				<a href="" class="text-white px-5 py-3 w-100 border-bottom">
-					<i class="fas fa-desktop text-white"></i>
-					Live Demo </a>
-				<div class="px-5 py-3 w-100 d-flex justify-content-between">
-					<a href="" class="text-white signin-btn w-100 text-center py-2 btn-primary"> Sign In </a>
-				</div>
+			<div class="px-5 py-3 mt-4 w-100 d-flex justify-content-between">
+				<a href="" class="text-white signin-btn w-100 text-center py-2 btn-primary"> Sign In </a>
 			</div>
 		</div>
 		</div>
@@ -278,26 +263,27 @@
 					<p class="font-weight-bold text-center ">Web Hosting</p>
 				</a>
 				<a href=""
-				class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between border-right box-hover py-3">
-				<img src="img/reseller.png" class="" alt="web Hosting picture">
+					class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between border-right box-hover py-3">
+					<img src="img/reseller.png" class="" alt="web Hosting picture">
 					<p class="font-weight-bold text-center">Reseller Hosting</p>
-			</a>
-			<a href=""
-			class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between border-right box-hover py-3">
+				</a>
+				<a href=""
+					class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between border-right box-hover py-3">
 					<img src="img/windows.png" class="" alt="web Hosting picture">
 					<p class="font-weight-bold text-center">Windows Hosting</p>
-		</a>
-		<a href=""
-		class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between border-right box-hover py-3">
+				</a>
+				<a href=""
+					class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between border-right box-hover py-3">
 					<img src="img/vps.png" class="" alt="web Hosting picture">
 					<p class="font-weight-bold text-center">VPS Server</p>
-	</a>
-	<a href=""
-	class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between border-right box-hover py-3">
+				</a>
+				<a href=""
+					class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between border-right box-hover py-3">
 					<img src="img/dedicated.png" class="" alt="web Hosting picture">
 					<p class="font-weight-bold text-center">Dedicated Server</p>
 				</a>
-					<a href="" class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between box-hover py-3">
+				<a href=""
+					class="col-sm-2 col-4 d-flex flex-column align-items-center justify-content-between box-hover py-3">
 					<img src="img/licensse.png" class="" alt="web Hosting picture">
 					<p class="font-weight-bold text-center ">License Service</p>
 				</a>

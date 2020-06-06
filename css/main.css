@@ -17,8 +17,8 @@ a {
 nav ul a:hover, .blogs-wrapper a:hover, .tap-section a:hover{
   color: #76cf48 !important;
 }
-.uk-flag {
-  margin-bottom: 3px;
+.uk-flag{
+  width: 1.5rem;
 }
 .cursor-pointer {
   cursor: pointer;
