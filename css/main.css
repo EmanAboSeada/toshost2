@@ -6,6 +6,9 @@
 /*
 font-family: 'DM Mono', monospace;
 */
+:root{
+  font-size: 16px;
+}
 body {
 }
 a {
