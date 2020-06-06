@@ -25,7 +25,7 @@
 
 //sidenav
 function openNav() {
-  document.getElementById("sidenav").style.width = "calc(200px + 20vw )";
+  document.getElementById("sidenav").style.width = "calc(250px + 20vw )";
 }
 function closeNav() {
   document.getElementById("sidenav").style.width = "0";
