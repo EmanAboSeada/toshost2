@@ -11,7 +11,7 @@ body {
 a {
   text-decoration: none !important;
 }
-nav ul a:hover, .blogs-wrapper a:hover {
+nav ul a:hover, .blogs-wrapper a:hover, .tap-section a:hover{
   color: #76cf48 !important;
 }
 .uk-flag {
@@ -157,7 +157,7 @@ img.dropdown-svg {
 nav {
   box-shadow: 0px 0px 10px 0px #2222;
 }
-nav a {
+nav a, .tap-section a {
   font-weight: bold;
   color: #133568;
 }
@@ -200,22 +200,25 @@ nav a {
 }
 
 .see-all-btn {
-  background-color: #76cf48 !important;
+  background-color: #f89667 !important;
   /* background-color: #ffbb44   !important; */
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 0 2rem;
+  padding: .8rem 3rem;
 }
 .see-all-btn:hover {
   color: white !important;
+  transform: scale(.8);
+  transition: ease-in-out .5s;
 }
 .search-btn {
   position: absolute;
-  top: 0.15rem;
-  right: 0.15rem;
-  height: 88%;
+  top: 0.1rem;
+  right: 0rem;
+  height: 93%;
   padding: 0 1.7rem;
   font-weight: bold;
   background-color: #76cf48 !important;
@@ -232,7 +235,7 @@ nav a {
   padding-right: 6.6em;
 }
 .domain-price a span {
-  color: #ffbb44 !important;
+  color: #f89406 !important;
 }
 .search-section {
   border-top: 1px solid #2222;
