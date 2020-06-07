@@ -131,20 +131,6 @@ nav a, .tap-section a {
   cursor: pointer;
 }
 
-.see-all-btn {
-  background-color: #fe4141  !important;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  border: none;
-  border-radius: 0 2rem;
-  padding: .8rem 3rem;
-}
-.see-all-btn:hover {
-  color: white !important;
-  transform: scale(.8);
-  transition: ease-in-out .5s;
-}
 .search-btn {
   position: absolute;
   top: 0rem;

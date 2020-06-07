@@ -1,3 +1,19 @@
+.see-all-btn {
+    background-color: #fe4141  !important;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 2rem;
+    padding: .8rem 3rem;
+    margin-top: 3rem;
+  }
+  .see-all-btn:hover {
+    color: white !important;
+    transform: scale(.8);
+    transition: ease-in-out .5s;
+  }
+
 #home1 {
     /* background-image: url("../img/2.jpg"); */
     min-height: 50vh;
@@ -40,6 +56,7 @@
   .blogs-wrapper figure{
     border-bottom: 5px solid #76cf48;
   }
+  
   
 @media only screen and (max-width: 414px) {
     /* phone */
