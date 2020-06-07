@@ -20,27 +20,33 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container*/
-    height: 76vh;
+    height: calc(60vh + 5vw);
   }
   .search-btn {
     position: absolute;
-    top: 0rem;
-    right: 0rem;
-    height: 100%;
-    padding: 0 1.7rem;
+    top: -.4rem;
+    right: -.5rem;
+    height: 3rem;
+    width: 3rem;
+    /* padding: 0 1.7rem; */
     font-weight: bold;
     background-color: #76cf48 !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
   }
   .fa-search {
-    position: absolute;
+    /* position: absolute;
     top: 9px;
-    left: 5px;
-    font-size: 1.3rem;
-    opacity: 0.4;
+    left: 5px; */
+    /* font-size: 1.5rem; */
+    /* opacity: 0.4; */
   }
   .search-input {
-    padding-left: 1.7em;
-    padding-right: 6.6em;
+    padding-left: 1rem;
+    padding-right: 3rem;
   }
   .domain-price a span {
     color: #f89406 !important;
