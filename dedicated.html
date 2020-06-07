@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedicated Server</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon_2.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Magnific Popup -->
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <!---Front Awesome Icon CSS-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Icons -->
+    <link href="css/materialdesignicons.min_2.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--Custome CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dedicated.css">
+</head>
+
+<body>
+
+    <div class="px-3 header-top bg-primary my-class">
+        <div class="container py-1">
+            <div class=" align-items-center d-flex">
+                <a href="" class="text-white d-flex flex-column flex-sm-row align-items-center justify-content-center">
+                    <img src="img/icons/uk.png" alt txt-secondary="uk flag" class="mr-sm-2 uk-flag">
+                    <p class="m-0">English</p>
+                </a>
+                <a href=""
+                    class="text-white  mx-3 d-flex flex-column flex-sm-row align-items-center justify-content-center">
+                    <i class="fas fa-edit text-white mr-sm-2"></i>
+                    <p class="m-0">Blog</p>
+                </a>
+                <a href="" class="text-white d-flex flex-column flex-sm-row align-items-center justify-content-center">
+                    <i class="fas fa-shopping-cart text-white mr-sm-2"></i>
+                    <p class="m-0">Cart</p>
+                </a>
+                <a href=""
+                    class="text-white mx-3 d-flex flex-column flex-sm-row align-items-center justify-content-center">
+                    <i class="fas fa-map-marker-alt text-white mr-sm-2"></i>
+                    <p class="m-0">Contact</p>
+                </a>
+                <a href="" class="text-white d-flex flex-column flex-sm-row align-items-center justify-content-center">
+                    <i class="fas fa-desktop text-white mr-sm-2"></i>
+                    <p class="m-0">Live Demo</p>
+                </a>
+                <a href="" class="text-white signin-btn ml-auto d-none d-sm-block"> Sign In </a></div>
+        </div>
+
+    </div>
+    <!---end header top item--->
+    <nav class="sticky-top bg-white px-3">
+        <div class="d-lg-flex d-none container justify-content-between">
+            <a href="" class="navbar-brand  d-sm-inline-block left-end">
+                <img src=" img/logo.png" alt txt-secondary=" Logo picture " />
+            </a>
+            <ul class="navbar-nav flex-row align-items-center">
+                <li class="nav-item ml-4"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item position-relative ml-4 dropdown-btn">
+                    <a href="javascript:void(0)" class="nav-link dropdown-toggle cursor-pointer active">Web Hosting </a>
+                    <div class="drop-menu p-3">
+                        <div class="row w-100">
+                            <div class="col-md-6">
+                                <a href="" class="dropdown-item"> <img src="img/shared.svg" alt
+                                        txt-secondary="Shared image " class="dropdown-svg">Shared Hosting </a>
+                                <a href="" class="dropdown-item"> <img src="img/vps.svg" alt
+                                        txt-secondary="Shared image " class="dropdown-svg">VPS Hosting </a>
+                                <a href="dedicated.html" class="dropdown-item txt-secondary"> <img
+                                        src="img/dedicated.svg" alt txt-secondary="Shared image "
+                                        class="dropdown-svg">Dedicated Server </a>
+                                <a href="" class="dropdown-item"> <img src="img/cloud.svg" alt
+                                        txt-secondary="Shared image " class="dropdown-svg">Cloud Hosting </a>
+                                <a href="" class="dropdown-item"> <img src="img/web.svg" alt
+                                        txt-secondary="Shared image " class="dropdown-svg">Web Hosting </a>
+
+                            </div>
+                            <div class="col-md-6">
+                                <a href="" class="dropdown-item"> <img src="img/reseller.svg" alt
+                                        txt-secondary="Shared image " class="dropdown-svg">Reseller Hosting</a>
+                                <a href="" class="dropdown-item"> <img src="img/domain.svg" alt
+                                        txt-secondary="Shared image " class="dropdown-svg">Domain Name</a>
+                                <a href="" class="dropdown-item"> <img src="img/wordpress.svg" alt
+                                        txt-secondary="Shared image " class="dropdown-svg">Wordpress Server</a>
+                                <a href="" class="dropdown-item"> <img src="img/email.svg" alt
+                                        txt-secondary="Shared image " class="dropdown-svg">Email Server </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!---end of dropdown menu-->
+                </li>
+                <li class="nav-item ml-4"><a href="VPS.html" class="nav-link">VPS </a></li>
+                <li class="nav-item ml-4">
+                    <a href="#" class="nav-link ">Server Solution </a>
+                </li>
+                <li class="nav-item ml-4">
+                    <a href=" #" class="nav-link">Tools </a>
+                </li>
+                <li class="nav-item ml-4"><a href=" " class="nav-link">Domain </a></li>
+                <li class="nav-item ml-4"><a href=" " class="nav-link">About Us </a></li>
+            </ul>
+        </div>
+        <div class=" container d-flex d-lg-none justify-content-between align-items-center">
+            <span id="sidenav-btn" onclick="openNav()">&#9776;</span>
+            <a href="" class="mt-1 mx-auto mx-lg-0 mb-2">
+                <img src=" img/logo.png" alt txt-secondary=" Logo picture " />
+            </a>
+        </div>
+        <div id="sidenav" class="sidenav bg-primary d-block d-lg-none h-100">
+            <span class="close-btn" onclick="closeNav()">&times;</span>
+            <ul class="navbar-nav flex-column align-items-start">
+                <li class="nav-item px-5 py-3 w-100 border-bottom"><a href=" " class="nav-link text-white">Home</a></li>
+                <li class="nav-item dropdown px-5 py-3 w-100 border-bottom"><a
+                        class="nav-link text-white dropdown-toggle cursor-pointer" data-toggle="collapse"
+                        href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Web
+                        Hosting </a>
+                </li>
+                <li class="collapse bg-white px-5" id="collapseExample">
+                    <div class="row w-100 p-3">
+                        <a href="" class=" text-primary my-2 border-bottom"> <img src="img/shared.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">Shared Hosting </a>
+                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/vps.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">VPS Hosting </a>
+                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/dedicated.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">Dedicated Server </a>
+                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/cloud.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">Cloud Hosting </a>
+                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/web.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">Web Hosting </a>
+                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/reseller.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">Reseller Hosting</a>
+                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/domain.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">Domain Name</a>
+                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/wordpress.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">Wordpress Server</a>
+                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/email.svg" alt
+                                txt-secondary="Shared image " class="dropdown-svg">Email Server </a>
+                    </div>
+                </li>
+                <li class="nav-item px-5 py-3 w-100 border-bottom"><a href=" " class="nav-link text-white">VPS </a></li>
+                <li class="nav-item px-5 py-3 w-100 border-bottom">
+                    <a href="#" class="nav-link text-white ">Server Solution </a>
+                </li>
+                <li class="nav-item px-5 py-3 w-100 border-bottom">
+                    <a href=" #" class="nav-link text-white">Tools </a>
+                </li>
+                <li class="nav-item px-5 py-3 w-100 border-bottom"><a href=" " class="nav-link text-white">Domain </a>
+                </li>
+                <li class="nav-item px-5 py-3 w-100 border-bottom"><a href=" " class="nav-link text-white">About Us </a>
+                </li>
+            </ul>
+            <div class="px-5 py-3 mt-4 w-100 d-flex justify-content-between">
+                <a href="" class="text-white signin-btn w-100 text-center py-2 btn-primary"> Sign In </a>
+            </div>
+        </div>
+        </div>
+
+    </nav>
+    <section class="header section bg-primary">
+        <div class="container h-100">
+            <div class="row h-100 text-white align-items-center">
+                <div class="col-12 col-sm-6">
+                    <h1 class="">VPS Hosting</h1>
+                    <p>We provide best hosting solutions for your hosting needs. Our clients form personal to
+                        corporate.Our data center are all over the world to ensure your website is always up. Happy
+                        hosting.</p>
+                    <button class="mt-4 see-all-btn">See All Plans </button>
+                </div>
+                <div class="col-6 d-none d-sm-block">
+                    <img src="img/icon-w-vps-hosting.png" class="w-50 d-block mx-auto" alt txt-secondary="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section  bg-white">
+        <div class="container">
+            <div class="row p-0 align-items-baseline">
+                <div class="section-title col-lg-7 col-12 text-center p-0 pt-5">
+                    <h2 class="mb-4 title text-primary">NAME VPN Servers </h2>
+                    <div class="row p-0 m-0 w-100">
+                        <div class="col-12 col-sm-4 border-right  px-4 mb-5 mt-2 mt-sm-0">
+                            <div class="rounded-circle d-inline-block pt-3 pb-2 px-3 mb-2 bg-secondary">
+                                <i class="h1 fas fa-tachometer-alt text-white"></i>
+                            </div>
+                            <div class="">
+                                <h5 class="mx-4">Instance Setup</h5>
+                                <small class="">Some quick example text to build on the card title and make up the
+                                    bulk of the card's.</small>
+                            </div>
+                        </div>
+                        <!--end first card-->
+                        <div class="col-12 col-sm-4 border-right px-4 mb-5">
+                            <div class="rounded-circle d-inline-block pt-3 pb-2 px-3 mb-2 bg-secondary">
+                                <i class="h1 fas fa-server text-white"></i>
+                            </div>
+                            <div class="">
+                                <h5 class="">DDos Protected Network</h5>
+                                <small class="">Some quick example text to build on the card title and make up the
+                                    bulk of the card's.</small>
+                            </div>
+                        </div>
+                        <!---end of 2nd card-->
+                        <div class="col-12 col-sm-4 px-4 mb-5">
+                            <div class="rounded-circle d-inline-block pt-3 pb-2 px-3 mb-2 bg-secondary">
+                                <i class="h1 fas fa-desktop text-white"></i>
+                            </div>
+                            <div class="">
+                                <h5 class="">Redundant Failover Cloud</h5>
+                                <small class="">Some quick example text to build on the card title and make up the
+                                    bulk of the card's.</small>
+
+                            </div>
+                        </div>
+                        <!---end of 3rd card-->
+                    </div>
+                </div>
+                <!---end of coloum-->
+                <div class="col-lg-5 col-12 pl-5 py-5">
+                    <h5 class="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quis alias tenetur
+                        dignissimos autem culpa, corporis quibusdam optio molestiae quisquam iusto earum, atque
+                        similique!
+                    </h5>
+                    <small class="d-block mb-2">
+                        Nemo reprehenderit exercitationem recusandae, accusamus cumque laboriosam. Inventore hic maxime
+                        distinctio odit accusantium rem accusamus. Magnam qui quam
+                        modi.
+                    </small>
+                    <small class="d-block">
+                        laborum minima placeat dolorum cum inventore
+                        blanditiis, tempora, quibusdam ullam quia!
+                    </small>
+                </div>
+            </div>
+        </div>
+        <div class="shadow-container container-width"></div>
+        <!---end of the container-->
+    </div>
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2 class="title text-primary mb-3">Dedicated Server Plans</h2>
+                <p class="text-muted mx-auto para-desc mb-5">Create, collaborate, and turn your ideas into incredible
+                    products with the definitive platform for digital design.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-5 mt-4 pt-2 text-center">
+                    <ul class="nav nav-pills nav-justified flex-sm-row rounded px-0" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link rounded" id="pills-one-tab" data-toggle="pill" href="#pills-one"
+                                role="tab" aria-controls="pills-one" aria-selected="false">
+                                <div class="text-center py-2">
+                                    <img src="img/icons/india.svg" class="avatar avatar-md-sm" alt="">
+                                    <h4 class="title font-weight-normal mt-3 mb-0">India</h4>
+                                </div>
+                            </a>
+                            <!--end nav link-->
+                        </li>
+                        <!--end nav item-->
+
+                        <li class="nav-item">
+                            <a class="nav-link rounded active" id="pills-two-tab" data-toggle="pill" href="#pills-two"
+                                role="tab" aria-controls="pills-two" aria-selected="false">
+                                <div class="text-center py-2">
+                                    <img src="img/icons/usa.svg" class="avatar avatar-md-sm" alt="">
+                                    <h4 class="title font-weight-normal mt-3 mb-0">USA</h4>
+                                </div>
+                            </a>
+                            <!--end nav link-->
+                        </li>
+                        <!--end nav item-->
+                    </ul>
+                </div>
+                <!--end col-->
+            </div>
+            <div class="col-12 mt-4 pt-2">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class=" tab-pane fade" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table table-pricing text-center">
+                                    <thead class="bg-primary">
+                                        <tr>
+                                            <th scope="col">Ram</th>
+                                            <th scope="col">CPU</th>
+                                            <th scope="col">Disk</th>
+                                            <th scope="col">Bandwith</th>
+                                            <th scope="col">Price</th>
+                                            <th scope="col">Setup Fee</th>
+                                            <th scope="col">#</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>4 GB</th>
+                                            <td><span class="lbl">CPU</span>2 Core</td>
+                                            <td><span class="lbl">Disk</span>1 TB</td>
+                                            <td><span class="lbl">Bandwith</span>10 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$59 monthly</span><span class="opt-2">$590
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>$20</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>4 GB</th>
+                                            <td><span class="lbl">CPU</span>4 Core</td>
+                                            <td><span class="lbl">Disk</span>2 TB</td>
+                                            <td><span class="lbl">Bandwith</span>20 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$79 monthly</span><span class="opt-2">$790
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>$20</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>6 GB</th>
+                                            <td><span class="lbl">CPU</span>4 Core</td>
+                                            <td><span class="lbl">Disk</span>4 TB</td>
+                                            <td><span class="lbl">Bandwith</span>30 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$99 monthly</span><span class="opt-2">$990
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>$15</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>6 GB</th>
+                                            <td><span class="lbl">CPU</span>6 Core</td>
+                                            <td><span class="lbl">Disk</span>6 TB</td>
+                                            <td><span class="lbl">Bandwith</span>40 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$119 monthly</span><span
+                                                    class="opt-2">$1190
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>$15</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>8 GB</th>
+                                            <td><span class="lbl">CPU</span>6 Core</td>
+                                            <td><span class="lbl">Disk</span>8 TB</td>
+                                            <td><span class="lbl">Bandwith</span>60 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$139 monthly</span><span
+                                                    class="opt-2">$1390
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>FREE</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>16 GB</th>
+                                            <td><span class="lbl">CPU</span>8 Core</td>
+                                            <td><span class="lbl">Disk</span>8 TB</td>
+                                            <td><span class="lbl">Bandwith</span>80 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$159 monthly</span><span
+                                                    class="opt-2">$1590
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>FREE</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>16 GB</th>
+                                            <td><span class="lbl">CPU</span>8 Core</td>
+                                            <td><span class="lbl">Disk</span>10 TB</td>
+                                            <td><span class="lbl">Bandwith</span>100 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$69 monthly</span><span
+                                                    class="opt-2">$1690
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>FREE</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end teb pane-->
+
+                    <div class=" tab-pane fade active show" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table table-pricing text-center">
+                                    <thead class="bg-primary">
+                                        <tr>
+                                            <th scope="col">Ram</th>
+                                            <th scope="col">CPU</th>
+                                            <th scope="col">Disk</th>
+                                            <th scope="col">Bandwith</th>
+                                            <th scope="col">Price</th>
+                                            <th scope="col">Setup Fee</th>
+                                            <th scope="col">#</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>4 GB</th>
+                                            <td><span class="lbl">CPU</span>2 Core</td>
+                                            <td><span class="lbl">Disk</span>1 TB</td>
+                                            <td><span class="lbl">Bandwith</span>10 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$59 monthly</span><span class="opt-2">$590
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>$20</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>4 GB</th>
+                                            <td><span class="lbl">CPU</span>4 Core</td>
+                                            <td><span class="lbl">Disk</span>2 TB</td>
+                                            <td><span class="lbl">Bandwith</span>20 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$79 monthly</span><span class="opt-2">$790
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>$20</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>6 GB</th>
+                                            <td><span class="lbl">CPU</span>4 Core</td>
+                                            <td><span class="lbl">Disk</span>4 TB</td>
+                                            <td><span class="lbl">Bandwith</span>30 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$99 monthly</span><span class="opt-2">$990
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>$15</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>6 GB</th>
+                                            <td><span class="lbl">CPU</span>6 Core</td>
+                                            <td><span class="lbl">Disk</span>6 TB</td>
+                                            <td><span class="lbl">Bandwith</span>40 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$119 monthly</span><span
+                                                    class="opt-2">$1190
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>$15</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>8 GB</th>
+                                            <td><span class="lbl">CPU</span>6 Core</td>
+                                            <td><span class="lbl">Disk</span>8 TB</td>
+                                            <td><span class="lbl">Bandwith</span>60 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$139 monthly</span><span
+                                                    class="opt-2">$1390
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>FREE</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>16 GB</th>
+                                            <td><span class="lbl">CPU</span>8 Core</td>
+                                            <td><span class="lbl">Disk</span>8 TB</td>
+                                            <td><span class="lbl">Bandwith</span>80 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$159 monthly</span><span
+                                                    class="opt-2">$1590
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>FREE</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <th><span class="lbl">Ram</span>16 GB</th>
+                                            <td><span class="lbl">CPU</span>8 Core</td>
+                                            <td><span class="lbl">Disk</span>10 TB</td>
+                                            <td><span class="lbl">Bandwith</span>100 TB</td>
+                                            <td><span class="lbl">Price</span><span class="opt-1">$69 monthly</span><span
+                                                    class="opt-2">$1690
+                                                    yearly</span></td>
+                                            <td><span class="lbl">Setup Fee</span>FREE</td>
+                                            <td class="text-center"><a href="javascript:void(0)" class="btn btn-icon btn-soft-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart icons"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end teb pane-->
+                </div>
+                <!--end col-->
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!---footer section start-->
+    <footer>
+        <!---start footer main section-->
+        <section class="footer-main bg-primary py-4 section">
+            <div class="container">
+                <div class="row align-items-baseline">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2  my-2 border-right">
+                        <h6 class="pb-3 text-uppercase text-light">web hosting</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="" class="text-capitalize text-muted">business shared hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">website creator </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">Managed <span class="text-uppercase">
+                                        VPS</span> hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">cloud <span class="text-uppercase">
+                                        vps</span> </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">desicated server hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">enterprise hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted"> solution </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">reseller hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">wordpress hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted"> launch assist<sup>TM</sup></a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">managed hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted"> domain names</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-capitalize text-muted">web design services </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 my-2 border-right">
+                        <h6 class="pb-3 text-uppercase text-light">hosting features</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="" class="text-muted">SSD Hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Shared cPanel Hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">eCommerce Hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">WooCommerce Hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">SSH Hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Ruby Hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">PostgreSQL Hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Cheap Hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Cheap Dedicated Servers </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Transfer Websites </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">PHP Hosting </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 my-2 border-right">
+                        <h6 class="pb-3 text-uppercase text-light"> hosting tools </h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="" class=" text-muted">Wordpress </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Joomla </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Drupal </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">cPanel </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Presta Shop </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted"> Moodle</a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">OpenCart </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted">Magento </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted"> BoldGrid</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2  my-2 border-right ">
+                        <h6 class="pb-3 text-uppercase text-light">community</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="" class=" text-muted text-capitalize"> premier support <sup>TM</sup> </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize"> support center</a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">web hosting infographics </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize"> los angeles hosting</a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize"> green data centers </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">student web hosting </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">partners </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 my-2 border-right">
+                        <h6 class="pb-3 text-uppercase text-light">about us </h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">contact us </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize"> terms of services </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted "> Legal Inquiries and DMCA </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted ">Privacy policy (GDPR/CCPA) </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">do not sell my personal information </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">blog </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">guarantee </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize"> testimonials </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize"> we're hiring </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">site map </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">press </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">reviews </a>
+                            </li>
+
+                        </ul>
+                        <h6 class="py-1 text-uppercase text-light">affiliates</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">affiliate program </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">affiliate login </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted text-capitalize">affiliate terms </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 my-2">
+                        <h6 class="py-3 text-uppercase text-light">stay in touch on </h6>
+                        <ul class="list-unstyled border-bottom pb-4">
+                            <li>
+                                <a href="" class=" text-muted py-2">
+                                    <i class="fab fa-facebook fa-1x bg-primary"></i>
+                                    /InMotionHosting
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted py-2">
+                                    <i class="fab fa-twitter fa-1x bg-primary"></i>
+                                    @InMotionHosting
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted py-2">
+                                    <i class="fab fa-linkedin fa-1x bg-primary"></i>
+                                    /InMotionHosting
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted py-2">
+                                    <i class="fab fa-youtube fa-1x bg-primary"></i>
+                                    /InMotionHosting
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class=" text-muted py-2">
+                                    <i class="fab fa-instagram fa-1x bg-primary"></i>
+                                    /InMotionHosting
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="my-3 ">
+                            <img src="img/logo.png" alt txt-secondary="Logo img  " class="py-3"> <br>
+                            <h6 class="text-muted">
+                                360. Pacific Coast Highway, Suite 1055 EI Segundo, CA90245 <br>
+                                888.321.HOST(4678) <br>
+                                2020 &#xA9; All Right Reserved
+
+                            </h6>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!---end of the main footer-->
+        <!---end footer main section-->
+        <section class=" bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-8 ">
+                        <div class="ml-0 py-2 row  justify-content-center">
+                            <a href="" class="px-1 px-md-2 col-2 col-sm-1"> Home</a>
+                            <a href="" class="px-1 px-md-2 col-2  col-sm-1"> About</a>
+                            <a href="" class="px-1 px-md-2 col-2 col-sm-1"> Contact</a>
+                            <a href="" class="px-1 px-md-2 col-6 col-sm-3 text-center"> Our Testimonials</a>
+                            <a href="" class="px-1 px-lg-2 col-4 col-sm-2"> Payment Way</a>
+                            <a href="" class="px-1 px-md-2 col-4 col-sm-2"> wordpress</a>
+                            <a href="" class="px-1 px-md-2 col-2 col-sm-1"> Hosting</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex  justify-content-center ">
+                        <div class="ml-0 ml-sm-1 py-2 d-flex align-items-baseline">
+                            <a href="" class="px-1 px-md-2 d-flex align-items-baseline"><img src="img/icons/encrypt.png"
+                                    alt txt-secondary="encrypt picture"> <span>Encrypt</span></a>
+                            <a href="" class="px-1 px-md-2  d-flex align-items-center"> <img src="img/icons/visa.png"
+                                    alt txt-secondary="visa picture"></a>
+                            <a href="" class="px-1 px-md-2 d-none d-md-inline-block"><img src="img/icons/trusted.png"
+                                    alt txt-secondary="trusted"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/all.js"></script>
+    <!-- SLIDER -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.init.js"></script>
+    <script src="http://shreethemes.in/hostick/layouts/app.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

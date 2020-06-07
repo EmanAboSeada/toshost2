@@ -1527,7 +1527,7 @@ button:not(:disabled) {
 }
 
 .nav-pills .nav-link.active {
-  background: #5368f1;
+  background: #3A6CAB;
   color: #ffffff !important;
 }
 
@@ -2679,7 +2679,7 @@ button:not(:disabled) {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   background-color: #3A6CAB ;
-  color: #ffffff !important;
+  color: #ffffff ;
 }
 
 .pricing.hosting-rate .price {
@@ -2774,7 +2774,7 @@ button:not(:disabled) {
   height: 8px;
   width: 8px;
   border-radius: 30px;
-  background: rgba(83, 104, 241, 0.5) !important;
+  background: rgba(133, 174, 224, 0.548) !important;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }

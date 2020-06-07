@@ -17,6 +17,9 @@ a {
 nav ul a:hover, .blogs-wrapper a:hover, .tap-section a:hover{
   color: #76cf48 !important;
 }
+nav ul a.active{
+  color: #76cf48 !important;
+}
 .uk-flag{
   width: 1.5rem;
 }
@@ -91,12 +94,12 @@ nav {
 }
 nav a, .tap-section a {
   font-weight: bold;
-  color: #133568;
+  color: #3A6CAB;
 }
 #sidenav-btn {
   cursor: pointer;
   font-size: 35px;
-  color: #133568;
+  color: #3A6CAB;
 }
 .sidenav {
   height: 100%;
@@ -130,9 +133,6 @@ nav a, .tap-section a {
   color: #76cf48;
   cursor: pointer;
 }
-
-
-
 
 @media only screen and (max-width: 414px) {
   /* phone */
