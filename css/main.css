@@ -75,84 +75,13 @@ nav ul a:hover, .blogs-wrapper a:hover, .tap-section a:hover{
   box-shadow: 0px 0px 5px 1px #2222;
   border-radius: 10px;
 }
-/* .bg-purple {
-  background-color: rgb(156, 94, 214);
-} */
-
-
-/* .drop-menu::before{
-        content: "";
-        position: absolute;
-        top: -5px;
-        left: 50px;
-        border: 7px solid white;
-        transform: translateX(-50%) rotate(135deg);
-    box-shadow: 0px 0px 5px 1px #2222;
-z-index: 0;
-} */
-/* .mega-menu{
-    width:400px;
-    overflow: hidden;
-} */
 img.dropdown-svg {
   width: 41px !important;
   height: 35px !important;
 }
-.header-bottum-text {
-  front-weight: bold;
-  color: #f89667;
-}
-#home1 {
-  /* background-image: url("../img/2.jpg"); */
-  min-height: 50vh;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container*/
-  height: 76vh;
-}
-/* #home1 .bg1{
-  background: url(../img/domain.svg) no-repeat;
-} */
-/* .home1-text{
-    position: relative;
-    top:15%;
-} */
-
-.home1-png {
-  position: relative;
-  left: 32%;
-  top: 20%;
-  height: 50%;
-}
-.top-footer {
-  height: 100px;
-}
-.top-footer-text {
-  position: relative;
-  top: 30px;
-} */
-.icon-coustom {
-  position: relative;
-  top: 40%;
-}
-
-.footer-main {
-  /* background-color: #3A6CAB ; */
-}
-/* .border-class {
-  border-right: 1px solid #07111e;
-} */
-
-/* .boder-bottum {
-  margin-top: 44px;
-  width: 209px;
-  height: 2px;
-  background-color: #07111e;
-} */
 
 .signin-btn {
   background-color: #76cf48 !important;
-  /* background-color: #4f627e; */
   border-radius: 3px;
   padding: 3px 15px;
   font-weight: 600;
@@ -204,7 +133,6 @@ nav a, .tap-section a {
 
 .see-all-btn {
   background-color: #fe4141  !important;
-  /* background-color: #ffbb44   !important; */
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
@@ -243,100 +171,14 @@ nav a, .tap-section a {
 .search-section {
   border-top: 1px solid #2222;
 }
-.home-section-two h2 {
-  font-weight: lighter !important;
-}
-.home-section-two p {
-  font-size: 1.2rem;
-  font-weight: lighter;
-}
-.home-section-two-wrapper {
-  box-shadow: 0px 0px 10px 0px #2222;
-}
-.home-section-two .shadow-container {
-  box-shadow: 0px 0px 2px 1px #3333;
-}
 
-.plan-name {
-  /* background: linear-gradient(to bottom left,#d8ebef, #144692); */
-  /* background: linear-gradient(to bottom left,#9dce84, #133568); */
-}
-.pricing:hover .plan-name {
-  background-color: #f6f7fa !important;
-}
-.tap-title::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 10px solid #f6f7fa;
-  -webkit-transform-origin: 0 0;
-  transform-origin: 0 0;
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
-}
-.features .left-top-icon, .features .right-top-icon{
-  padding-top: 140px;
-}
-.features .left-bottom-icon, .features .right-bottom-icon{
-  padding-top: 180px;
-}
-.features .main-icon{
-  background-color: #e7e8ec;
-  border-radius: 50%;
-  padding: 50px 0 70px 0;
-  width: 300px;
-  height: 300px;
-}
-
-.blogs-wrapper figure{
-  border-bottom: 5px solid #76cf48;
-}
 
 @media only screen and (max-width: 414px) {
   /* phone */
   :root {
     font-size: 12px;
   }
-  .container-width {
-    width: 90% !important;
-    margin: 0 auto;
-  }
-  #question {
-    background-color: #3A6CAB  !important;
-  }
   .search-section a {
     font-size: calc(10px + 1vw);
-  }
-  .tap-section img{
-    width: 3rem;
-}
-.features .left-top-icon, .features .right-top-icon, .features .left-bottom-icon, .features .right-bottom-icon{
-  padding: 5rem  0;
-}
-}
-@media only screen and (max-width: 991px) and (min-width: 415px) {
-  /* ipad*/
-  #question {
-    background-color: #3A6CAB !important;
-  }
-  .price-item-last {
-    margin: 0 !important;
-    margin-top: 30px !important;
-  }
-  .features .main-icon{
-    width: 200px;
-    height: 200px;
-  }
-  .features .main-icon img{
-    width: 150px;
-  }
-}
-@media only screen and (min-width: 415px) {
-  .container-width {
-    width: 80% !important;
-    margin: 0 auto;
   }
 }
