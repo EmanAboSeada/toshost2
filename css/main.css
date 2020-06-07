@@ -47,9 +47,10 @@ nav ul a.active{
   content: "\002B";
   font-weight: bold;
   float: right;
+  transition: .5s;
 }
 .collapsible.active:after {
-  content: "×";
+  transform: rotate(45deg);
 }
 .collapsible.active {
   color: #76cf48;

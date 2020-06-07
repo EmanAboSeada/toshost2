@@ -2534,9 +2534,9 @@ button:not(:disabled) {
 }
 
 .services .icon {
-  width: 80px;
-  height: 80px;
-  line-height: 72px;
+  width: 70px;
+  height: 70px;
+  line-height: 60px;
   border: 3px solid rgba(83, 104, 241, 0.2);
   background-color: rgba(83, 104, 241, 0.065);
   border-radius: 10px;
