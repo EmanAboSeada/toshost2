@@ -10,10 +10,93 @@ font-family: 'DM Mono', monospace;
   font-size: 16px;
 }
 body {
+  font-family: "DM Mono", sans-serif;
 }
 a {
   text-decoration: none !important;
 }
+.section {
+  padding: 5rem 0;
+  position: relative;
+}
+.section-title .title::after{
+  content: "";
+    width: 3em;
+    height: 0;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #76cf48;
+}
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+  .title-heading .heading {
+    font-size: 40px !important;
+  }
+  .title-heading .para-desc {
+    font-size: 18px;
+  }
+  .section-title .title {
+    font-size: 24px;
+  }
+  .mt-60 {
+    margin-top: 60px;
+  }
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.bg-primary {
+  background-color: #3A6CAB  !important;
+}
+
+.text-primary {
+  color: #3A6CAB  !important;
+}
+
+a.text-primary:hover, a.text-primary:focus, a.text-primary:active, a.text-primary.active, a.text-primary.focus {
+  color: #3A6CAB  !important;
+}
+
+.bg-secondary{
+  background-color: #76cf48  !important;
+}
+.txt-secondary{
+  color: #76cf48  !important;
+}
+.btn-primary {
+  background-color: #3A6CAB  !important;
+  border: 1px solid #3A6CAB  !important;
+  color: #ffffff !important;
+}
+.btn-secondary-border{
+  color:#76cf48 !important;
+  border: 1px solid #76cf48  !important;
+  background-color: white;
+}
+.btn-secondary-border:hover{
+  background-color: #76cf48 !important;
+  color: white !important;
+}
+.btn-primary-border{
+  color:#3A6CAB !important;
+  border: 1px solid #3A6CAB  !important;
+  background-color: white;
+}
+.btn-primary-border:hover{
+  background-color: #3A6CAB !important;
+  color: white !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus {
+  background-color: #76cf48  !important;
+  border-color: #3A6CAB   !important;
+  color: white  !important;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
 nav ul a:hover, .blogs-wrapper a:hover, .tap-section a:hover{
   color: #76cf48 !important;
 }
