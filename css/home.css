@@ -16,7 +16,7 @@
 
 #home1 {
     /* background-image: url("../img/2.jpg"); */
-    min-height: 50vh;
+    max-height: 55vh;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container*/

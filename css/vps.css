@@ -42,7 +42,7 @@
 .table-pricing thead tr th {
     padding: 20px 0 20px 0;
 }
-.table-pricing tbody tr {
+.table-pricing tbody tr, .management-table tbody tr {
     width: 100%;
     background: white;
     border-top: solid 15px #f6f7fa ;
