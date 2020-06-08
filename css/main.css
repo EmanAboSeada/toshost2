@@ -165,6 +165,10 @@ nav a, .tap-section a {
   color: #dbde2f !important;
   text-decoration: underline;
 } 
+  
+.blogs-wrapper figure{
+  border-bottom: 5px solid #76cf48;
+}
 
 @media only screen and (max-width: 414px) {
   /* phone */

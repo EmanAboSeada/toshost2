@@ -13,11 +13,6 @@
     padding: .8rem 3rem;
     margin-top: 3rem;
   }
-  .see-all-btn:hover {
-    color: white !important;
-    transform: scale(.8);
-    transition: ease-in-out .5s;
-  }
   .pricing:hover .plan-name, .pricing:hover .plan-name .title{
       background-color: #3A6CAB !important;
       color: white !important;

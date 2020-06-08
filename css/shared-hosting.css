@@ -1,0 +1,9 @@
+.header{
+    height: calc(50vh + 5vw);
+    background: url(../img/1.jpg) no-repeat;
+    background-size: cover;
+}
+.pricing:hover .plan-name, .pricing:hover .plan-name .title{
+    background-color: #3A6CAB !important;
+    color: white !important;
+}
