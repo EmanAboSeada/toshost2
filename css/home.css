@@ -20,7 +20,7 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container*/
-        height: calc(60vh + 5vw);
+        height: calc(50vh + 10vw);
   }
   .search-btn {
     position: absolute;

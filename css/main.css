@@ -134,6 +134,37 @@ nav a, .tap-section a {
   color: #76cf48;
   cursor: pointer;
 }
+.buttom-tap::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 10px solid #f6f7fa;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  z-index: 1;
+}
+.footer-main {
+  background: linear-gradient(45deg, #416f90,#1d4663e0,#416f90);
+  background-color: gray;
+}
+.footer-main .border-right {
+  border-right: 1px solid #8b949c85 !important;
+}
+.footer-main .border-bottom{
+  border-bottom: 1px solid #8b949c85 !important;
+}
+.footer-main ul li a {
+  opacity: .8 !important;
+} 
+.footer-main ul li a:hover {
+  color: #dbde2f !important;
+  text-decoration: underline;
+} 
 
 @media only screen and (max-width: 414px) {
   /* phone */
