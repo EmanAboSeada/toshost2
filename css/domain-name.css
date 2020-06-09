@@ -1,4 +1,11 @@
 .header{
+    height: 45vh;
+    background: url(../img/1.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.features{
     background-color: #f2fcfe;
 }
 .collapse-list{
@@ -11,4 +18,11 @@
     border-bottom: #c9d4df solid 1px;
     color: #4e5f83 !important;
 
+}
+.form-control{
+    font-size: 1.5rem;
+    height: calc(1.5em + 2rem + 2px);
+}
+select.form-control{
+    width: auto;
 }

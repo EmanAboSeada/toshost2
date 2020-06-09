@@ -1,5 +1,5 @@
 .header{
-    height: calc(50vh + 5vw);
+    height: 40vh;
     background: url(../img/1.jpg) no-repeat;
     background-size: cover;
 }

@@ -102,6 +102,7 @@ nav ul a:hover, .blogs-wrapper a:hover, .tap-section a:hover{
 }
 nav ul a.active{
   color: #76cf48 !important;
+  background-color: transparent !important;
 }
 .uk-flag{
   width: 1.5rem;
@@ -117,10 +118,17 @@ nav ul a.active{
   background-color: white;
   width: 500px;
   box-shadow: 0px 0px 5px 1px #2222;
-  display: none;
+  height: 0;
+  /* left: 0; */
+  opacity: 0;
+  transition: all .3s ease;
+  transform: scale(0);
 }
+
 .dropdown-btn:hover .drop-menu {
-  display: block;
+  height: 250px;
+  opacity: 1;
+  transform: translateY(0);
 }
 .collapsible {
   font-weight: bold;
