@@ -52,7 +52,7 @@
 .pricing:hover .plan-name {
     background-color: #f6f7fa !important;
   }
-  .tap-title::before {
+  /* .tap-title::before {
     content: "";
     position: absolute;
     top: 100%;
@@ -64,7 +64,7 @@
     transform-origin: 0 0;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
-  }
+  } */
   .features .left-top-icon, .features .right-top-icon{
     padding-top: 140px;
   }
