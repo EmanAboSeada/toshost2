@@ -99,5 +99,8 @@
 .global td:last-of-type{
     text-align: right;
 }
+.global td:nth-of-type(2){
+    padding-left: 2rem;
+}
 
 
