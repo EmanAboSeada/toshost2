@@ -2,6 +2,11 @@
     height: 45vh;
     background: url(../img/bg/Top-10-Ranking-About-Us-Pages.png);
     background-size: cover;
+    background-position: center;
+    /* margin: 0 auto 100px; */
+}
+.header > div{
+  background-color: rgba(58, 109, 171, 0.596);
 }
 
 .FAQ{
