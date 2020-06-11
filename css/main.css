@@ -116,24 +116,41 @@ nav ul a.active{
   top: 0;
   background-color: white;
   box-shadow: 0px 0px 5px 1px #2222;
-  height: 0;
-  opacity: 0;
+  /* height: 0; */
+  /* opacity: 0; */
   transition: all .3s ease;
   transform: scale(0);
 }
 .drop-menu-col-2{
-  left: -200px;
-  width: 500px;
+  /* left: -200px; */
+  width: 450px;
+}
+.drop-menu-col-1::before, .drop-menu-col-2::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 45px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 7px solid #495057;
+    border-color: transparent transparent #ffffff #ffffff;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -webkit-box-shadow: -2px 2px 2px -1px rgba(0, 0, 0, 0.15);
+    box-shadow: -2px 2px 2px -1px rgba(0, 0, 0, 0.15);
 }
 .drop-menu-col-1{
-  left: -100px;
-  width: 250px;
+  /* left: -30%; */
+  /* width: 250px; */
 }
 
 .dropdown-btn:hover .drop-menu-col-1,.dropdown-btn:hover .drop-menu-col-2 {
-  height: 250px;
-  opacity: 1;
+  /* height: 250px; */
+  /* opacity: 1; */
   transform: translateY(0);
+  transform: scale(1);
 }
 .collapsible {
   font-weight: bold;

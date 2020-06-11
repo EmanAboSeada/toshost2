@@ -10,22 +10,36 @@
 }
 .collapse-list{
     font-size: 20px !important;
-    color: #4e5f83 !important;
+    color: #49d03a;
 }
+
 .collapse-list-link {
     font-weight: 600;
     font-size: 22px;
     border-bottom: #c9d4df solid 1px;
     color: #4e5f83 !important;
-
+}
+.collapse-list-text{
+color: #4e5f83;
+/* margin-bottom: 1rem; */
 }
 .form-control{
     font-size: 1.5rem;
-    height: calc(1.5em + 2rem + 2px);
+    height: calc(1.5em + 1.5rem + 2px);
 }
 select.form-control{
     width: auto;
 }
 .domain-name-img{
     height:6rem
+}
+.fa-arrow-right{
+    transition: 1s;
+}
+.login-btn:hover .fa-arrow-right{
+    transform: translateX(8px);
+}
+
+.bg-purple{
+    background-color: purple;
 }
