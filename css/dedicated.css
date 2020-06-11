@@ -102,5 +102,8 @@
 .global td:nth-of-type(2){
     padding-left: 2rem;
 }
-
+.fa-shopping-cart{
+    font-size: 25px;
+    padding: 10px;
+}
 
