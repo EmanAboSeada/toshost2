@@ -1,5 +1,7 @@
 .header{
     height: 45vh;
+    background: url(../img/bg/Top-10-Ranking-About-Us-Pages.png);
+    background-size: cover;
 }
 
 .FAQ{
