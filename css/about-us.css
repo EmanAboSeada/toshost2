@@ -159,7 +159,10 @@
 }
 
 
-
+.getstarted-link:hover .fa-chevron-right{
+    transform: translateX(10px);
+    transition: .5s;
+}
 
 
 

@@ -96,14 +96,14 @@ a.text-primary:hover, a.text-primary:focus, a.text-primary:active, a.text-primar
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
-
-nav ul a:hover, .blogs-wrapper a:hover, .tap-section a:hover{
+/* 
+nav ul a:hover, .blogs-wrapper a.active, .tap-section a.active{
   color: #76cf48 !important;
 }
 nav ul a.active{
   color: #76cf48 !important;
   background-color: transparent !important;
-}
+} */
 .uk-flag{
   width: 1.5rem;
 }

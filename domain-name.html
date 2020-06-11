@@ -58,112 +58,224 @@
 
     </div>
     <!---end header top item--->
-    <nav class="sticky-top bg-white px-3">
-        <div class="d-lg-flex d-none container justify-content-between">
-            <a href="index.html" class="navbar-brand  d-sm-inline-block left-end">
-                <img src=" img/logo.png" alt=" Logo picture " />
-            </a>
-            <ul class="navbar-nav flex-row align-items-center">
-                <li class="nav-item ml-4"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item position-relative ml-4 dropdown-btn">
-                    <a href="javascript:void(0)" class="nav-link dropdown-toggle cursor-pointer active">Web Hosting </a>
-                    <div class="drop-menu-col-2 p-3">
-                        <div class="row w-100">
-                            <div class="col-md-6">
-                                <a href="Shared-hosting.html" class="dropdown-item"> <img src="img/shared.svg"
-                                        alt="Shared image " class="dropdown-svg">Shared Hosting </a>
-                                <a href="VPS.html" class="dropdown-item"> <img src="img/vps.svg" alt="Shared image "
-                                        class="dropdown-svg">VPS Hosting </a>
-                                <a href="dedicated.html" class="dropdown-item"> <img src="img/dedicated.svg"
-                                        alt="Shared image " class="dropdown-svg">Dedicated Server </a>
-                                <a href="" class="dropdown-item"> <img src="img/cloud.svg" alt="Shared image "
-                                        class="dropdown-svg">Cloud Hosting </a>
-                                <a href="" class="dropdown-item"> <img src="img/web.svg" alt="Shared image "
-                                        class="dropdown-svg">Web Hosting </a>
+    <nav class="sticky-top bg-white w-100">
+		<div class="d-lg-flex d-none container justify-content-between">
+			<a href="index.html" class="navbar-brand  d-sm-inline-block left-end">
+				<img src=" img/logo.png" alt=" Logo picture " />
+			</a>
+			<ul class="navbar-nav flex-row align-items-center">
+				<li class="nav-item ml-4"><a href="index.html" class="nav-link active">Home</a></li>
+				<li class="nav-item position-relative ml-4 dropdown-btn">
+					<a href="javascript:void(0)" class="nav-link cursor-pointer">Web Hosting <i
+							class="fas fa-chevron-down pt-1"></i></a>
+					<div class="drop-menu-col-2">
+						<div class="row w-100 h-100 py-3">
+							<div class="col-md-6 pr-0 mr-0">
+								<a href="Shared-hosting.html" class="dropdown-item"> <img src="img/icons/shared.svg"
+										alt="Shared icon " class="dropdown-svg">Shared Hosting </a>
+								<a href="" class="dropdown-item"> <img src="img/icons/cloud.svg" alt="Shared icon "
+										class="dropdown-svg">Cloud Hosting </a>
+								<a href="" class="dropdown-item"> <img src="img/wordpress.svg" alt="Shared icon "
+										class="dropdown-svg">Wordpress Hosting</a>
+								<a href="" class="dropdown-item d-flex align-items-center"><i
+										class="fab fa-windows dropdown-svg mr-3 h2 text-primary"></i> Windows Hosting
+								</a>
 
-                            </div>
-                            <div class="col-md-6">
-                                <a href="" class="dropdown-item"> <img src="img/reseller.svg" alt="Shared image "
-                                        class="dropdown-svg">Reseller Hosting</a>
-                                <a href="domain-name.html" class="dropdown-item txt-secondary"> <img
-                                        src="img/domain.svg" alt="Shared image " class="dropdown-svg">Domain Name</a>
-                                <a href="" class="dropdown-item"> <img src="img/wordpress.svg" alt="Shared image "
-                                        class="dropdown-svg">Wordpress Server</a>
-                                <a href="" class="dropdown-item"> <img src="img/email.svg" alt="Shared image "
-                                        class="dropdown-svg">Email Server </a>
-                            </div>
+							</div>
+							<div class="col-md-6 pl-0 ml-0">
+								<a href="" class="dropdown-item"> <img src="img/icons/reseller.svg" alt="Reseller icon "
+										class="dropdown-svg">Reseller Hosting</a>
+								<a href="" class="dropdown-item d-flex align-items-center"><img
+										src="img/icons/domain.svg" alt="CDN icon " class="dropdown-svg">CDN Hosting
+								</a>
+								<a href="" class="dropdown-item"> <img src="img/email.svg" alt="Shared icon "
+										class="dropdown-svg">Email Solution </a>
+								<a href="VPS.html" class="dropdown-item"> <img src="img/vps.svg" alt="SSL service icon "
+										class="dropdown-svg">SSL service </a>
+							</div>
 
-                        </div>
-                    </div>
-                    <!---end of dropdown menu-->
-                </li>
-                <li class="nav-item ml-4"><a href="VPS.html" class="nav-link">VPS </a></li>
-                <li class="nav-item ml-4">
-                    <a href="#" class="nav-link ">Server Solution </a>
+						</div>
+					</div>
+					<!---end of dropdown menu-->
+				</li>
+				<li class="nav-item ml-4 position-relative ml-4 dropdown-btn"><a href="javascript:void(0)"
+						class="nav-link cursor-pointer">VPS <i class="fas fa-chevron-down pt-1"></i></a>
+					<div class="drop-menu-col-1 py-3">
+						<a href="" class="dropdown-item"> <img src="img/icons/kvmcloud.png" alt="Shared image "
+								class="dropdown-svg mr-2">KVM VPS</a>
+						<a href="" class="dropdown-item"> <img src="img/icons/open_vz.png" alt="Shared image "
+								class="dropdown-svg mr-2">Openvz VPS </a>
+						<a href="" class="dropdown-item"> <img src="img/wordpress.svg" alt="Shared image "
+								class="dropdown-svg mr-2">Managed VPS</a>
+						<a href="" class="dropdown-item d-flex align-items-center"><i
+								class="fab fa-windows dropdown-svg mr-3 h2 text-primary"></i><span>Windows
+								VPS</span></a>
+						<a href="" class="dropdown-item"> <img src="img/icons/vps.svg" alt="vps icon "
+								class="dropdown-svg mr-2">Storage VPS</a>
+					</div>
+				</li>
+				<li class="nav-item ml-4 position-relative ml-4 dropdown-btn">
+					<a href="javascript:void(0)" class="nav-link cursor-pointer">Server Solution <i
+							class="fas fa-chevron-down pt-1"></i></a>
+					<div class="drop-menu-col-1 py-3">
+						<a href="dedicated.html" class="dropdown-item"> <img src="img/icons/dedicated.svg"
+								alt="dedicated server icon " class="dropdown-svg">Dedicated Server </a>
+						<a href="" class="dropdown-item"> <img src="img/icons/dedicated.svg" alt="managed server icon "
+								class="dropdown-svg">Managed Server</a>
+					</div>
+				</li>
+				<li class="nav-item ml-4 position-relative ml-4 dropdown-btn">
+					<a href="javascript:void(0)" class="nav-link cursor-pointer">Tools <i
+							class="fas fa-chevron-down pt-1"></i></a>
+					<div class="drop-menu-col-1 py-3">
+						<a href="tools.html" class="dropdown-item">Whois</a>
+						<a href="" class="dropdown-item">DNS checker</a>
+						<a href="" class="dropdown-item">IP Checker</a>
+						<a href="" class="dropdown-item">Blacklist check</a>
+						<a href="" class="dropdown-item">Speed test </a>
+						<a href="" class="dropdown-item">Down checker</a>
 
-                </li>
-                <li class="nav-item ml-4">
-                    <a href=" #" class="nav-link">Tools </a>
-                </li>
-                <li class="nav-item ml-4"><a href=" " class="nav-link">Domain </a></li>
-                <li class="nav-item ml-4"><a href=" " class="nav-link">About Us </a></li>
-            </ul>
-        </div>
-        <div class="d-flex d-lg-none container justify-content-between align-items-center">
-            <span id="sidenav-btn" onclick="openNav()">&#9776;</span>
-            <a href="index.html" class="mt-1 mx-auto mx-lg-0 mb-2">
-                <img src=" img/logo.png" alt=" Logo picture " />
-            </a>
-        </div>
-        <div id="sidenav" class="sidenav bg-primary d-block d-lg-none h-100">
-            <span class="close-btn" onclick="closeNav()">&times;</span>
-            <ul class="navbar-nav flex-column align-items-start">
-                <li class="nav-item px-5 py-3 w-100 border-bottom"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item dropdown px-5 py-3 w-100 border-bottom"><a
-                        class="nav-link text-white dropdown-toggle cursor-pointer" data-toggle="collapse"
-                        href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Web
-                        Hosting </a>
-                </li>
-                <li class="collapse bg-white px-5" id="collapseExample">
-                    <div class="row w-100 p-3">
-                        <a href="Shared-hosting.html" class=" text-primary my-2 border-bottom"> <img
-                                src="img/shared.svg" alt="Shared image " class="dropdown-svg">Shared Hosting </a>
-                        <a href="VPS.html" class="text-primary my-2 border-bottom"> <img src="img/vps.svg"
-                                alt="Shared image " class="dropdown-svg">VPS Hosting </a>
-                        <a href="dedicated.html" class="text-primary my-2 border-bottom"> <img src="img/dedicated.svg"
-                                alt="Shared image " class="dropdown-svg">Dedicated Server </a>
-                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/cloud.svg" alt="Shared image "
-                                class="dropdown-svg">Cloud Hosting </a>
-                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/web.svg" alt="Shared image "
-                                class="dropdown-svg">Web Hosting </a>
-                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/reseller.svg"
-                                alt="Shared image " class="dropdown-svg">Reseller Hosting</a>
-                        <a href="domain-name.html" class="text-primary my-2 border-bottom"> <img src="img/domain.svg"
-                                alt="Shared image " class="dropdown-svg">Domain Name</a>
-                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/wordpress.svg"
-                                alt="Shared image " class="dropdown-svg">Wordpress Server</a>
-                        <a href="" class="text-primary my-2 border-bottom"> <img src="img/email.svg" alt="Shared image "
-                                class="dropdown-svg">Email Server </a>
-                    </div>
-                </li>
-                <li class="nav-item px-5 py-3 w-100 border-bottom"><a href="VPS.html" class="nav-link text-white">VPS
-                    </a></li>
-                <li class="nav-item px-5 py-3 w-100 border-bottom">
-                    <a href="#" class="nav-link text-white ">Server Solution </a>
-                </li>
-                <li class="nav-item px-5 py-3 w-100 border-bottom">
-                    <a href=" #" class="nav-link text-white">Tools </a>
-                </li>
-                <li class="nav-item px-5 py-3 w-100 border-bottom"><a href=" " class="nav-link text-white">Domain </a>
-                </li>
-                <li class="nav-item px-5 py-3 w-100 border-bottom"><a href=" " class="nav-link text-white">About Us </a>
-                </li>
-            </ul>
-            <div class="px-5 py-3 mt-4 w-100 d-flex justify-content-between">
-                <a href="" class="text-white signin-btn w-100 text-center py-2 btn-primary"> Sign In </a>
-            </div>
-        </div>
-    </nav>
+					</div>
+				</li>
+				<li class="nav-item ml-4 position-relative ml-4 dropdown-btn"><a href="javascript:void(0)"
+						class="nav-link">Domain <i class="fas fa-chevron-down pt-1"></i></a>
+					<div class="drop-menu-col-1 py-3">
+						<a href="" class="dropdown-item">Registration </a>
+						<a href="" class="dropdown-item">Transfer </a>
+						<a href="" class="dropdown-item">Promos</a>
+					</div>
+				</li>
+				<li class="nav-item ml-4 position-relative ml-4 dropdown-btn"><a href="javascript:void(0)"
+						class="nav-link cursor-pointer">Company <i class="fas fa-chevron-down pt-1"></i></a>
+					<div class="drop-menu-col-1 py-3">
+						<a href="" class="dropdown-item"> Why TOSHOST </a>
+						<a href="about-us.html" class="dropdown-item">About Us </a>
+						<a href="" class="dropdown-item">Contact Us</a>
+						<a href="" class="dropdown-item">Affiliate Program </a>
+						<a href="" class="dropdown-item">Data Center</a>
+						<a href="" class="dropdown-item">Legal</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="d-flex d-lg-none container justify-content-between align-items-center">
+			<span id="sidenav-btn" onclick="openNav()">&#9776;</span>
+			<a href="index.html" class="mt-1 mx-auto mx-lg-0 mb-2">
+				<img src=" img/logo.png" alt=" Logo picture " />
+			</a>
+		</div>
+		<div id="sidenav" class="sidenav bg-primary d-block d-lg-none h-100">
+			<span class="close-btn" onclick="closeNav()">&times;</span>
+			<ul class="navbar-nav flex-column align-items-start">
+				<li class="nav-item px-5 py-3 w-100 border-bottom"><a href="index.html" class="nav-link">Home</a></li>
+				<li class="nav-item dropdown px-5 py-3 w-100 border-bottom">
+					<a class="nav-link text-white cursor-pointer" data-toggle="collapse" href="#web-hosting-collapse"
+						role="button" aria-expanded="false" aria-controls="web-hosting-collapse">Web
+						Hosting <i class="fas fa-chevron-down pt-1"></i></a>
+				</li>
+				<li class="collapse bg-white px-5" id="web-hosting-collapse">
+					<div class="row w-100 p-3 ">
+						<a href="Shared-hosting.html" class="dropdown-item my-2 border-bottom text-primary"> <img
+								src="img/icons/shared.svg" alt="Shared icon " class="dropdown-svg">Shared Hosting </a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img src="img/icons/cloud.svg"
+								alt="Shared icon " class="dropdown-svg">Cloud Hosting </a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img src="img/wordpress.svg"
+								alt="Shared icon " class="dropdown-svg">Wordpress Hosting</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary d-flex align-items-center"><i
+								class="fab fa-windows dropdown-svg mr-3 h2 text-primary"></i> Windows Hosting
+						</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img
+								src="img/icons/reseller.svg" alt="Reseller icon " class="dropdown-svg">Reseller
+							Hosting</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary d-flex align-items-center"><img
+								src="img/icons/domain.svg" alt="CDN icon " class="dropdown-svg">CDN Hosting
+						</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img src="img/email.svg"
+								alt="Shared icon " class="dropdown-svg">Email Solution </a>
+						<a href="VPS.html" class="dropdown-item my-2 border-bottom text-primary"> <img src="img/vps.svg"
+								alt="SSL service icon " class="dropdown-svg">SSL service </a>
+					</div>
+				</li>
+				<li class="nav-item px-5 py-3 w-100 border-bottom dropdown"><a href="#vps-collapse"
+						class="nav-link text-white cursor-pointer" data-toggle="collapse" role="button"
+						aria-expanded="false" aria-controls="vps-collapse">VPS <i
+							class="fas fa-chevron-down pt-1"></i></a></li>
+				<li class="collapse bg-white px-5" id="vps-collapse">
+					<div class="row w-100 p-3">
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img
+								src="img/icons/kvmcloud.png" alt="Shared image " class="dropdown-svg mr-2">KVM VPS</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img
+								src="img/icons/open_vz.png" alt="Shared image " class="dropdown-svg mr-2">Openvz VPS
+						</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img src="img/wordpress.svg"
+								alt="Shared image " class="dropdown-svg mr-2">Managed VPS</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary d-flex align-items-center"><i
+								class="fab fa-windows dropdown-svg mr-3 h2 text-primary"></i><span>Windows
+								VPS</span></a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img src="img/icons/vps.svg"
+								alt="vps icon " class="dropdown-svg mr-2">Storage VPS</a>
+					</div>
+				</li>
+				<li class="nav-item px-5 py-3 w-100 border-bottom dropdown">
+					<a href="#server-solution-collapse" class="nav-link text-white cursor-pointer"
+						data-toggle="collapse" role="button" aria-expanded="false" aria-controls="vps-collapse">Server
+						Solution <i class="fas fa-chevron-down pt-1"></i></a>
+				</li>
+				<li class="collapse bg-white px-5" id="server-solution-collapse">
+					<div class="row w-100 p-3">
+						<a href="dedicated.html" class="dropdown-item my-2 border-bottom text-primary"> <img
+								src="img/icons/dedicated.svg" alt="dedicated server icon "
+								class="dropdown-svg">Dedicated Server </a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> <img
+								src="img/icons/dedicated.svg" alt="managed server icon " class="dropdown-svg">Managed
+							Server</a>
+					</div>
+				</li>
+				<li class="nav-item px-5 py-3 w-100 border-bottom dropdown">
+					<a href="#tools-collapse" class="nav-link text-white cursor-pointer" data-toggle="collapse"
+						role="button" aria-expanded="false" aria-controls="tools-collapse">Tools <i	class="fas fa-chevron-down pt-1 ml-auto"></i></a>
+				</li>
+				<li class="collapse bg-white px-5" id="tools-collapse">
+					<div class="row w-100 p-3">
+						<a href="tools.html" class="dropdown-item my-2 border-bottom text-primary">Whois</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">DNS checker</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">IP Checker</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Blacklist check</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Speed test </a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Down checker</a>
+					</div>
+				</li>
+				<li class="nav-item px-5 py-3 w-100 border-bottom dropdown d-flex justify-content-between"><a href="#domain-collapse"
+						class="nav-link text-white cursor-pointer" data-toggle="collapse" role="button"
+						aria-expanded="false" aria-controls="domain-collapse">Domain <i	class="fas fa-chevron-down pt-1 ml-auto text-whte"></i></a>
+				</li>
+				<li class="collapse bg-white px-5" id="domain-collapse">
+					<div class="row w-100 p-3">
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Registration </a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Transfer </a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Promos</a>
+					</div>
+				</li>
+				<li class="nav-item px-5 py-3 w-100 border-bottom dropdown d-flex justify-content-between"><a  href="#company-collapse"
+					class="nav-link text-white cursor-pointer" data-toggle="collapse" role="button"
+					aria-expanded="false" aria-controls="company-collapse">Company<i class="fas fa-chevron-down pt-1 ml-2"></i></a>
+				</li>
+				<li class="collapse bg-white px-5" id="company-collapse">
+					<div class="row w-100 p-3">
+						<a href="" class="dropdown-item my-2 border-bottom text-primary"> Why TOSHOST </a>
+						<a href="about-us.html" class="dropdown-item my-2 border-bottom text-primary">About Us </a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Contact Us</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Affiliate Program </a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Data Center</a>
+						<a href="" class="dropdown-item my-2 border-bottom text-primary">Legal</a>
+					</div>
+				</li>
+			</ul>
+			<div class="px-5 py-3 mt-4 w-100 d-flex justify-content-between">
+				<a href="" class="text-white signin-btn w-100 text-center py-2 btn-primary"> Sign In </a>
+			</div>
+		</div>
+	</nav>
 
     <section class=" header">
         <div class="container h-100">
