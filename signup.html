@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs</title>
+    <!-- Required meta tags -->
+    <title>Sign up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon_2.ico">
     <!-- Bootstrap CSS -->
@@ -16,17 +17,16 @@
     <!-- Slider -->
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <!-- Icons -->
-    <link href="css/materialdesignicons.min_2.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <!-- Css -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!--Custome CSS-->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/domain-single.css">
+    <link rel="stylesheet" href="css/signup.css">
 </head>
 
 <body>
+    <!---start of the header section-->
+    <!---start header top item--->
     <div class="px-3 header-top bg-primary my-class">
         <div class="container py-1">
             <div class=" align-items-center d-flex justify-content-between">
@@ -34,7 +34,7 @@
                     <img src="img/icons/uk.png" alt="uk flag" class="mr-sm-2 uk-flag">
                     <p class="m-0">English</p>
                 </a>
-                <a href=""
+                <a href="blogs.html"
                     class="text-white  mx-3 d-flex flex-column flex-sm-row align-items-center justify-content-center">
                     <i class="fas fa-edit text-white mr-sm-2"></i>
                     <p class="m-0">Blog</p>
@@ -51,14 +51,14 @@
                 </a>
                 <a href="" class="text-white d-flex flex-column flex-sm-row align-items-center justify-content-center">
                     <i class="fas fa-desktop text-white mr-sm-2"></i>
-                    <p class="m-0">Live Demo</p>
+                    <p class="m-0">Status</p>
                 </a>
-                <a href="" class="text-white signin-btn ml-3 d-none d-md-block"> Sign In </a></div>
+                <a href="" class="text-white signin-btn ml-3 d-none d-md-block" data-toggle="modal"
+                    data-target="#LoginForm">Login</a></div>
         </div>
-
     </div>
     <!---end header top item--->
-    <nav class="sticky-top bg-white">
+    <nav class="sticky-top bg-white w-100">
         <div class="d-lg-flex d-none container justify-content-between">
             <a href="index.html" class="navbar-brand  d-sm-inline-block left-end">
                 <img src=" img/logo.png" alt=" Logo picture " />
@@ -66,31 +66,32 @@
             <ul class="navbar-nav flex-row align-items-center">
                 <li class="nav-item ml-4"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item position-relative ml-4 dropdown-btn">
-                    <a href="javascript:void(0)" class="nav-link dropdown-toggle cursor-pointer">Web Hosting </a>
-                    <div class="drop-menu-col-2 p-3">
-                        <div class="row w-100">
-                            <div class="col-md-6">
+                    <a href="javascript:void(0)" class="nav-link cursor-pointer">Web Hosting <i
+                            class="fas fa-chevron-down pt-1"></i></a>
+                    <div class="drop-menu-col-2">
+                        <div class="row w-100 h-100 py-3">
+                            <div class="col-md-6 pr-0 mr-0">
                                 <a href="Shared-hosting.html" class="dropdown-item"> <img src="img/shared.svg"
-                                        alt="Shared image " class="dropdown-svg">Shared Hosting </a>
-                                <a href="VPS.html" class="dropdown-item"> <img src="img/vps.svg" alt="Shared image "
-                                        class="dropdown-svg">VPS Hosting </a>
-                                <a href="dedicated.html" class="dropdown-item"> <img src="img/dedicated.svg"
-                                        alt="Shared image " class="dropdown-svg">Dedicated Server </a>
-                                <a href="" class="dropdown-item"> <img src="img/cloud.svg" alt="Shared image "
+                                        alt="Shared icon " class="dropdown-svg">Shared Hosting </a>
+                                <a href="" class="dropdown-item"> <img src="img/cloud.svg" alt="Shared icon "
                                         class="dropdown-svg">Cloud Hosting </a>
-                                <a href="" class="dropdown-item"> <img src="img/web.svg" alt="Shared image "
-                                        class="dropdown-svg">Web Hosting </a>
+                                <a href="" class="dropdown-item"> <img src="img/wordpress.svg" alt="Shared icon "
+                                        class="dropdown-svg">Wordpress Hosting</a>
+                                <a href="" class="dropdown-item d-flex align-items-center"><i
+                                        class="fab fa-windows dropdown-svg mr-3 h2 text-primary"></i> Windows Hosting
+                                </a>
 
                             </div>
-                            <div class="col-md-6">
-                                <a href="" class="dropdown-item"> <img src="img/reseller.svg" alt="Shared image "
+                            <div class="col-md-6 pl-0 ml-0">
+                                <a href="" class="dropdown-item"> <img src="img/reseller.svg" alt="Reseller icon "
                                         class="dropdown-svg">Reseller Hosting</a>
-                                <a href="domain-name.html" class="dropdown-item"> <img src="img/domain.svg"
-                                        alt="Shared image " class="dropdown-svg">Domain Name</a>
-                                <a href="" class="dropdown-item"> <img src="img/wordpress.svg" alt="Shared image "
-                                        class="dropdown-svg">Wordpress Server</a>
-                                <a href="" class="dropdown-item"> <img src="img/email.svg" alt="Shared image "
-                                        class="dropdown-svg">Email Server </a>
+                                <a href="" class="dropdown-item d-flex align-items-center"><img src="img/domain.svg"
+                                        alt="CDN icon " class="dropdown-svg">CDN Hosting
+                                </a>
+                                <a href="" class="dropdown-item"> <img src="img/email.svg" alt="Shared icon "
+                                        class="dropdown-svg">Email Solution </a>
+                                <a href="VPS.html" class="dropdown-item"> <img src="img/vps.svg" alt="SSL service icon "
+                                        class="dropdown-svg">SSL service </a>
                             </div>
 
                         </div>
@@ -98,8 +99,8 @@
                     <!---end of dropdown menu-->
                 </li>
                 <li class="nav-item ml-4 position-relative ml-4 dropdown-btn"><a href="javascript:void(0)"
-                        class="nav-link dropdown-toggle cursor-pointer">VPS </a>
-                    <div class="drop-menu-col-1 p-3">
+                        class="nav-link cursor-pointer">VPS <i class="fas fa-chevron-down pt-1"></i></a>
+                    <div class="drop-menu-col-1 py-3">
                         <!-- <div class="row w-100">
 								<div class="col-md-6"> -->
                         <a href="" class="dropdown-item"> <img src="img/icons/kvmcloud.png" alt="Shared image "
@@ -116,69 +117,47 @@
                     </div>
                 </li>
                 <li class="nav-item ml-4 position-relative ml-4 dropdown-btn">
-                    <a href="javascript:void(0)" class="nav-link dropdown-toggle cursor-pointer">Server Solution </a>
-                    <div class="drop-menu-col-1 p-3">
-                        <div class="row w-100">
-                            <div class="col-md-6">
-                                <a href="Shared-hosting.html" class="dropdown-item"> <img src="img/shared.svg"
-                                        alt="Shared image " class="dropdown-svg">Shared Hosting </a>
-                                <a href="VPS.html" class="dropdown-item"> <img src="img/vps.svg" alt="Shared image "
-                                        class="dropdown-svg">VPS Hosting </a>
-                                <a href="dedicated.html" class="dropdown-item"> <img src="img/dedicated.svg"
-                                        alt="Shared image " class="dropdown-svg">Dedicated Server </a>
-                                <a href="" class="dropdown-item"> <img src="img/cloud.svg" alt="Shared image "
-                                        class="dropdown-svg">Cloud Hosting </a>
-                                <a href="" class="dropdown-item"> <img src="img/web.svg" alt="Shared image "
-                                        class="dropdown-svg">Web Hosting </a>
-
-                            </div>
-                            <div class="col-md-6">
-                                <a href="" class="dropdown-item"> <img src="img/reseller.svg" alt="Shared image "
-                                        class="dropdown-svg">Reseller Hosting</a>
-                                <a href="domain-name.html" class="dropdown-item"> <img src="img/domain.svg"
-                                        alt="Shared image " class="dropdown-svg">Domain Name</a>
-                                <a href="" class="dropdown-item"> <img src="img/wordpress.svg" alt="Shared image "
-                                        class="dropdown-svg">Wordpress Server</a>
-                                <a href="" class="dropdown-item"> <img src="img/email.svg" alt="Shared image "
-                                        class="dropdown-svg">Email Server </a>
-                            </div>
-
-                        </div>
+                    <a href="javascript:void(0)" class="nav-link cursor-pointer">Server Solution <i
+                            class="fas fa-chevron-down pt-1"></i></a>
+                    <div class="drop-menu-col-1 py-3">
+                        <a href="dedicated.html" class="dropdown-item"> <img src="img/dedicated.svg" alt="Shared icon "
+                                class="dropdown-svg">Dedicated Server </a>
+                        <a href="" class="dropdown-item"> <img src="img/dedicated.svg" alt="Shared icon "
+                                class="dropdown-svg">Managed Server</a>
                     </div>
                 </li>
                 <li class="nav-item ml-4 position-relative ml-4 dropdown-btn">
-                    <a href="javascript:void(0)" class="nav-link dropdown-toggle cursor-pointer">Tools </a>
-                    <div class="drop-menu-col-1 p-3">
-                        <div class="row w-100">
-                            <div class="col-md-6">
-                                <a href="Shared-hosting.html" class="dropdown-item"> <img src="img/shared.svg"
-                                        alt="Shared image " class="dropdown-svg">Shared Hosting </a>
-                                <a href="VPS.html" class="dropdown-item"> <img src="img/vps.svg" alt="Shared image "
-                                        class="dropdown-svg">VPS Hosting </a>
-                                <a href="dedicated.html" class="dropdown-item"> <img src="img/dedicated.svg"
-                                        alt="Shared image " class="dropdown-svg">Dedicated Server </a>
-                                <a href="" class="dropdown-item"> <img src="img/cloud.svg" alt="Shared image "
-                                        class="dropdown-svg">Cloud Hosting </a>
-                                <a href="" class="dropdown-item"> <img src="img/web.svg" alt="Shared image "
-                                        class="dropdown-svg">Web Hosting </a>
+                    <a href="javascript:void(0)" class="nav-link cursor-pointer">Tools <i
+                            class="fas fa-chevron-down pt-1"></i></a>
+                    <div class="drop-menu-col-1 py-3">
+                        <a href="" class="dropdown-item">Whois</a>
+                        <a href="" class="dropdown-item">DNS checker</a>
+                        <a href="" class="dropdown-item">IP Checker</a>
+                        <a href="" class="dropdown-item">Blacklist check</a>
+                        <a href="" class="dropdown-item">Speed test </a>
+                        <a href="" class="dropdown-item">Down checker</a>
 
-                            </div>
-                            <div class="col-md-6">
-                                <a href="" class="dropdown-item"> <img src="img/reseller.svg" alt="Shared image "
-                                        class="dropdown-svg">Reseller Hosting</a>
-                                <a href="domain-name.html" class="dropdown-item"> <img src="img/domain.svg"
-                                        alt="Shared image " class="dropdown-svg">Domain Name</a>
-                                <a href="" class="dropdown-item"> <img src="img/wordpress.svg" alt="Shared image "
-                                        class="dropdown-svg">Wordpress Server</a>
-                                <a href="" class="dropdown-item"> <img src="img/email.svg" alt="Shared image "
-                                        class="dropdown-svg">Email Server </a>
-                            </div>
-
-                        </div>
                     </div>
                 </li>
-                <li class="nav-item ml-4"><a href=" " class="nav-link">Domain </a></li>
-                <li class="nav-item ml-4"><a href=" " class="nav-link">About Us </a></li>
+                <li class="nav-item ml-4 position-relative ml-4 dropdown-btn"><a href="javascript:void(0)"
+                        class="nav-link">Domain <i class="fas fa-chevron-down pt-1"></i></a>
+                    <div class="drop-menu-col-1 py-3">
+                        <a href="" class="dropdown-item">Registration </a>
+                        <a href="" class="dropdown-item">Transfer </a>
+                        <a href="" class="dropdown-item">Promos</a>
+                    </div>
+                </li>
+                <li class="nav-item ml-4 position-relative ml-4 dropdown-btn"><a href="javascript:void(0)"
+                        class="nav-link cursor-pointer">Company <i class="fas fa-chevron-down pt-1"></i></a>
+                    <div class="drop-menu-col-1 py-3">
+                        <a href="" class="dropdown-item"> Why TOSHOST </a>
+                        <a href="about-us.html" class="dropdown-item">About Us </a>
+                        <a href="" class="dropdown-item">Contact Us</a>
+                        <a href="" class="dropdown-item">Affiliate Program </a>
+                        <a href="" class="dropdown-item">Data Center</a>
+                        <a href="" class="dropdown-item">Legal</a>
+                    </div>
+                </li>
             </ul>
         </div>
         <div class="d-flex d-lg-none container justify-content-between align-items-center">
@@ -213,7 +192,7 @@
                         <a href="domain-name.html" class="text-primary my-2 border-bottom"> <img src="img/domain.svg"
                                 alt="Shared image " class="dropdown-svg">Domain Name</a>
                         <a href="" class="text-primary my-2 border-bottom"> <img src="img/wordpress.svg"
-                                alt="Shared image " class="dropdown-svg">Wordpress Server</a>
+                                alt="Shared image " class="dropdown-svg">Wordpress Hosting</a>
                         <a href="" class="text-primary my-2 border-bottom"> <img src="img/email.svg" alt="Shared image "
                                 class="dropdown-svg">Email Server </a>
                     </div>
@@ -236,270 +215,178 @@
             </div>
         </div>
     </nav>
-    <section class=" header bg-primary">
-        <div class="container h-100">
-            <div class="row h-100 text-white align-items-center">
-                <div class="col-12 col-sm-6">
-                    <h5>.com Domain Names</h5>
-                    <h1 class="">Register a .coms</h1>
-                    <p>The world's most popular domain name.</p>
+    <!-- Login Modal Content Start -->
+    <div class="modal fade" id="LoginForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content rounded shadow border-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Login </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="col-6 d-none d-sm-block h-100">
-                    <img src="img/domain_registration.png" class="w-100 h-100 d-block mx-auto" alt="domain name image">
+                <div class="modal-body">
+                    <form class="login-form">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group position-relative">
+                                    <label>Your Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" name="email" required=""
+                                        placeholder="Your Email :">
+                                </div>
+                            </div>
+                            <!--end col-->
+
+                            <div class="col-12">
+                                <div class="form-group position-relative">
+                                    <label>Password <span class="text-danger">*</span></label>
+                                    <input type="password" class="form-control" required="" placeholder="Password :">
+                                </div>
+                            </div>
+                            <!--end col-->
+
+                            <div class="col-12">
+                                <div class="d-flex justify-content-between">
+                                    <div class="form-group d-inline-block">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Remember me</label>
+                                        </div>
+                                    </div>
+                                    <p class="forgot-pass mb-0"><a href="page-forgot-password.html"
+                                            class="text-dark font-weight-bold">Forgot password ?</a></p>
+                                </div>
+                            </div>
+                            <!--end col-->
+                            <div class="col-12 mb-0">
+                                <button class="btn btn-primary w-100">Sign in</button>
+                            </div>
+                            <!--end col-->
+                            <div class="col-12 mt-4 text-center">
+                                <h6 class="mb-0">Or Login With</h6>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-sm-6 mt-4">
+                                        <a href="index.html#" class="btn btn-block btn-light bg-facebook"><i
+                                                class="mdi mdi-facebook"></i> Facebook</a>
+                                    </div>
+                                    <div class="col-sm-6 mt-4">
+                                        <a href="index.html#" class="btn btn-block btn-light"><i
+                                                class="mdi mdi-google"></i> Google</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <p class="mb-0 mt-3"><small class="text-dark mr-2">Don't have an account ?</small> <a
+                                        href="page-signup.html" class="text-dark font-weight-bold">Sign Up</a></p>
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </form>
+                    <!--end form-->
                 </div>
             </div>
         </div>
-    </section>
-    <!-- curve -->
-    <div class="position-relative">
-        <div class="shape overflow-hidden text-white">
-            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-            </svg>
-        </div>
     </div>
-    <!-- search domain -->
-    <section class="section">
+    <!-- Login Modal Content End -->
+
+    <section class=" bg-white">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="card domain-name border-0 rounded-pill overflow-hidden py-lg-3">
-                        <div class="py-5 px-4 bg-white">
-                            <div class="input-group form-group mb-0">
-                                <input name="name" id="name" type="text" class="form-control rounded-left py-4"
-                                    placeholder="Your domain name :">
-                                <div class="input-group-append" id="button-addon4">
-                                    <input type="submit" id="search" name="search"
-                                        class="searchbtn btn btn-block px-1 px-sm-2 px-md-4 px-lg-5" value="Search">
+            <div class="row no-gutters position-relative my-2">
+                <div class="col-md-6 col-12 card login-page border-0 shadow ">
+                    <div class="card-body p-4">
+                        <h4 class="card-title text-center">Signup</h4>
+                        <form class="login-form mt-4">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group position-relative">
+                                        <label>First name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" placeholder="First Name" name="s"
+                                            required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group position-relative">
+                                        <label>Last name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" placeholder="Last Name" name="s"
+                                            required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group position-relative">
+                                        <label>Your Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" placeholder="Email" name="email"
+                                            required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group position-relative">
+                                        <label>Password <span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control" placeholder="Password" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                            <label class="custom-control-label" for="customCheck2">I Accept</label>
+                                            <a href="" class="text-primary">Terms And Condition</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn btn-primary btn-block">Register</button>
+                                </div>
+                                <div class="col-lg-12 mt-4 text-center">
+                                    <h6>Or Signup With</h6>
+                                    <ul class="list-unstyled social-icon mb-0 mt-3">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-github"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-gitlab"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                                <div class="mx-auto">
+                                    <p class="mb-0 mt-3"><small class="text-dark mr-2">Already have an account ?</small>
+                                        <a href="page-login.html" class="text-dark font-weight-bold">Sign in</a></p>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
-                <!--end col-->
+                <div class="col-md-6 col-12 bg-light shadow p-5">
+                    <ul class="text-primary list-unstyled px-5">
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">Terms of Condition</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">Terms for Shared Hosting</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">Refund Policy</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">Privacy Policy</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">Data Security</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">GDPR</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">Service Level Agreement</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">DMCA Policy</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">Dedicated Server Policy</a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">VPS Policy </a></li>
+                        <li class="h5 border-bottom pb-2"><i class="fas fa-angle-right mr-2"></i><a href="">Support Policy</a></li>
+
+                    </ul>
+                </div>
+                <!-- </div>
+                        </div>
+                    </div>  -->
+                <!-- </div>     -->
             </div>
             <!--end row-->
         </div>
-
+        <!--end container fluid-->
     </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-title text-center mb-4">
-                <h2 class="title text-primary">Why register a .com domain name?</h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-12 bg-light p-5">
-                    <p><i class="fas fa-angle-right mr-2 text-primary"></i>With over 141 million registrations, the .com
-                        domain is the most popular and trusted extension in
-                        the world. It's the top choice for anyone building a new website because it helps establish your
-                        business and build trust with your customers.</p>
-                    <p><i class="fas fa-angle-right mr-2 text-primary"></i>It's also the most assumed extension - people
-                        naturally type it in if they don't know the website
-                        extension they're searching for.</p>
-                    <p><i class="fas fa-angle-right mr-2 text-primary"></i>Likewise, if an extension is not specified in
-                        the search bar, many web browsers will
-                        automatically find .com domains first. So, by simply registering a .com domain name, you can
-                        benefit from 'type-in traffic' too.</p>
-                </div>
-                <div class="col-sm-6 col-12 bg-primary p-5">
-                    <h4 class="text-white mb-4">The .com domain is:</h4>
-                    <p class="text-light mb-1"><i class="fas fa-check mr-2 "></i>Most popular</p>
-                    <p class="text-light mb-1"><i class="fas fa-check mr-2 "></i>Most recognised</p>
-                    <p class="text-light mb-1"><i class="fas fa-check mr-2 "></i>Most assumed</p>
-                    <p class="text-light"><i class="fas fa-check mr-2 "></i>Global & versatile</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="d-flex">
-                <div class="step-container position-relative">
-                    
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--end section-->
 
 
-  <!-- Questions  Start -->
-  <section class="section">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="section-title text-center mb-4 pb-2">
-                <h2 class="title mb-3 text-primary">Questions regarding Dedicated Server ?</h2>
-                <p class="text-muted para-desc mx-auto mb-0">Create, collaborate, and turn your ideas into
-                    incredible products with the definitive platform for digital design.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <img src="img/question.png" class="w-100" alt="questions picture">
-            </div>
-            <div class=" col-md-6 col-12" id="accordionExampletwo">
-                <div class="card border-0 rounded mb-2">
-                    <h6 class="bg-light">
-                        <button class="h6 px-3 py-2 btn btn-block text-left collapsible  collapseTwo active"
-                            type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true"
-                            aria-controls="collapseTwo">
-                            What is dedicated server ?
-                        </button>
-                    </h6>
-                    <div id="collapsefive" class="collapse show" aria-labelledby="headingfive"
-                        data-parent="#accordionExampletwo">
-                        <div class="card-body p-3">
-                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of
-                                Lorem Ipsum available, but the majority have suffered alteration in some
-                                form.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card border-0 rounded mb-2">
-                    <h6 class="bg-light">
-                        <button class="h6 px-3 py-2 btn btn-block text-left collapsible collapseTwo" type="button"
-                            data-toggle="collapse" data-target="#collapsesix" aria-expanded="true"
-                            aria-controls="collapseTwo">
-                            Do I need a dedicated server ?
-                        </button>
-                    </h6>
-                    <div id="collapsesix" class="collapse" aria-labelledby="headingsix"
-                        data-parent="#accordionExampletwo">
-                        <div class="card-body p-3">
-                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of
-                                Lorem Ipsum available, but the majority have suffered alteration in some
-                                form.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card border-0 rounded mb-2">
-                    <h6 class="bg-light">
-                        <button class="h6 px-3 py-2 btn btn-block text-left collapsible collapseTwo" type="button"
-                            data-toggle="collapse" data-target="#collapseseven" aria-expanded="true"
-                            aria-controls="collapseTwo">
-                            How can I get my website transferred for free?
-                        </button>
-                    </h6>
-                    <div id="collapseseven" class="collapse" aria-labelledby="headingseven"
-                        data-parent="#accordionExampletwo">
-                        <div class="card-body p-3">
-                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of
-                                Lorem Ipsum available, but the majority have suffered alteration in some
-                                form.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card border-0 rounded mb-2">
-                    <h6 class="bg-light">
-                        <button class="h6 px-3 py-2 btn btn-block text-left collapsible collapseTwo" type="button"
-                            data-toggle="collapse" data-target="#collapseeight" aria-expanded="true"
-                            aria-controls="collapseTwo">
-                            What level of access do I get with my dedicated server ?
-                        </button>
-                    </h6>
-                    <div id="collapseeight" class="collapse" aria-labelledby="headingeight"
-                        data-parent="#accordionExampletwo">
-                        <div class="card-body p-3">
-                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of
-                                Lorem Ipsum available, but the majority have suffered alteration in some
-                                form.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card border-0 rounded mb-2">
-                    <h6 class="bg-light">
-                        <button class="h6 px-3 py-2 btn btn-block text-left collapsible collapseTwo" type="button"
-                            data-toggle="collapse" data-target="#collapsenine" aria-expanded="true"
-                            aria-controls="collapse">
-                            Which control panels are provided?
-                        </button>
-                    </h6>
-                    <div id="collapsenine" class="collapse " aria-labelledby="headingnine"
-                        data-parent="#accordionExampletwo">
-                        <div class="card-body p-3">
-                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of
-                                Lorem Ipsum available, but the majority have suffered alteration in some
-                                form.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- start blogs section -->
-<section class="section blogs pb-0 pb-sm-5 pt-5">
-    <div class="container">
-        <div class="section-title text-center mb-4">
-            <h2 class="title text-primary mb-3">Latest From The Blog</h2>
-            <p class="text-muted mx-auto para-desc">Get our latest tips & tutorials.</p>
-        </div>
-
-        <div class="row m-0 blogs-wrapper">
-            <div class="col-lg-3 col-sm-6 col-12  mb-5 mb-md-0 p-2 h-100">
-                <div class="card  shadow box-hover border-0 rounded overflow-hidden">
-                    <figure class="mb-0">
-                        <img class="img-fluid w-100" src="img/bolgs/blog1.png" alt="blog image">
-                    </figure>
-                    <div class="card-body px-3 pt-1 pb-3">
-                        <div>
-                            <p class="mb-0">03 Nov 2019</p>
-                            <a href="" class="text-primary h6">FCO Case Study</a>
-                            <p class="mt-3">Lorem ipsum dolor sit amet. Modi facere mollitia maiores ipsum dolor sit
-                                amet ipsum dolor sit amet...</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--end col-->
-            <div class="col-lg-3 col-sm-6 col-12  mb-5 mb-md-0 p-2 h-100">
-                <div class="card pricing   shadow box-hover border-0 rounded overflow-hidden h-100">
-                    <figure class="mb-0">
-                        <img class="img-fluid w-100" src="img/bolgs/blog2.png" alt="blog image">
-                    </figure>
-                    <div class="card-body px-3 pt-1 pb-3">
-                        <p class="mb-0">03 Nov 2019</p>
-                        <a href="" class="text-primary h6">ROC Technologies Case Study</a>
-                        <p class="mt-3">Lorem ipsum dolor sit amet. Modi quaerat repudiandae facere mollitia maiores
-                            facere mollitia...</p>
-                    </div>
-                </div>
-            </div>
-            <!--end col-->
-            <div class="col-lg-3 col-sm-6 col-12  mb-5 mb-md-0 p-2 h-100">
-                <div class="card pricing shadow box-hover border-0 rounded overflow-hidden">
-                    <figure class="mb-0">
-                        <img class="img-fluid w-100" src="img/bolgs/blog3.png" alt="blog image">
-                    </figure>
-                    <div class="card-body px-3 pt-1 pb-3">
-                        <p class="mb-0">20 Oct 2019</p>
-                        <a href="" class="text-primary h6">APD Case Study</a>
-                        <p class="mt-3">Lorem ipsum dolor sit amet. Modi quaerat repudiandae facere mollitia
-                            corrupti consectetur maiores...</p>
-                    </div>
-                </div>
-            </div>
-            <!--end col-->
-            <div class="col-lg-3 col-sm-6 col-12  mb-5 mb-md-0 p-2 h-100">
-                <div class="card pricing hosting-rate  shadow box-hover border-0 rounded overflow-hidden">
-                    <figure class="mb-0">
-                        <img class="img-fluid w-100" src="img/bolgs/blog4.png" alt="blog image">
-                    </figure>
-                    <div class="card-body px-3 pt-1 pb-3">
-                        <p class="mb-0">10 Aug 2020</p>
-                        <a href="" class="text-primary h6">Alliantist Case Study</a>
-                        <p class="mt-3">Lorem ipsum dolor sit amet. Modi quaerat repudiandae facere mollitia
-                            corrupti consectetur maiores...</p>
-                    </div>
-                </div>
-            </div>
-            <!--end col-->
-        </div>
-    </div>
-</section>
 
     <!---footer section start-->
     <footer>
@@ -790,13 +677,28 @@
     </footer>
     <!-- Footer End -->
 
+
+    <!-- Optional JavaScript -->
+    <!-- javascript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+    <!-- <script src="js/scrollspy.min.js"></script> -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+    <!--front awesome js file -->
     <script src="js/all.js"></script>
     <!-- SLIDER -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/owl.init.js"></script>
+    <!-- Magnific Popup -->
+    <!-- <script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="http://shreethemes.in/hostick/layouts/magnific.init.js"></script> -->
+    <!-- Icons -->
+    <!-- <script src="http://shreethemes.in/hostick/layouts/feather.min.js"></script> -->
+    <!-- Main Js -->
     <script src="http://shreethemes.in/hostick/layouts/app.js"></script>
     <script src="./js/main.js"></script>
 </body>
