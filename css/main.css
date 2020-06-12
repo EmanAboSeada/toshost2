@@ -261,6 +261,7 @@ nav a, .tap-section a {
   border-bottom: 5px solid #76cf48;
 }
 
+
 @media only screen and (max-width: 414px) {
   /* phone */
   :root {
@@ -268,5 +269,8 @@ nav a, .tap-section a {
   }
   .search-section a {
     font-size: calc(10px + 1vw);
+  }
+  .modal{
+    max-width: 100% !important;
   }
 }
