@@ -2,11 +2,6 @@
 /* <style> */
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
 
-/* </style> */
-/*front family name */
-/*
-font-family: 'DM Mono', monospace;
-*/
 :root{
   font-size: 16px;
 }
@@ -96,14 +91,6 @@ a.text-primary:hover, a.text-primary:focus, a.text-primary:active, a.text-primar
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
-/* 
-nav ul a:hover, .blogs-wrapper a.active, .tap-section a.active{
-  color: #76cf48 !important;
-}
-nav ul a.active{
-  color: #76cf48 !important;
-  background-color: transparent !important;
-} */
 .uk-flag{
   width: 1.5rem;
 }
@@ -116,13 +103,10 @@ nav ul a.active{
   top: 0;
   background-color: white;
   box-shadow: 0px 0px 5px 1px #2222;
-  /* height: 0; */
-  /* opacity: 0; */
   transition: all .3s ease;
   transform: scale(0);
 }
 .drop-menu-col-2{
-  /* left: -200px; */
   width: 450px;
 }
 .drop-menu-col-1::before, .drop-menu-col-2::before {
@@ -141,14 +125,8 @@ nav ul a.active{
     -webkit-box-shadow: -2px 2px 2px -1px rgba(0, 0, 0, 0.15);
     box-shadow: -2px 2px 2px -1px rgba(0, 0, 0, 0.15);
 }
-.drop-menu-col-1{
-  /* left: -30%; */
-  /* width: 250px; */
-}
 
 .dropdown-btn:hover .drop-menu-col-1,.dropdown-btn:hover .drop-menu-col-2 {
-  /* height: 250px; */
-  /* opacity: 1; */
   transform: translateY(0);
   transform: scale(1);
 }

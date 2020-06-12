@@ -3,7 +3,6 @@
     background: url(../img/bg/Top-10-Ranking-About-Us-Pages.png);
     background-size: cover;
     background-position: center;
-    /* margin: 0 auto 100px; */
 }
 .header > div{
   background-color: rgba(58, 109, 171, 0.596);
@@ -17,7 +16,6 @@
     background-image: url("../img/8.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* filter: sepia(0.5); */
   background-position: center;
   background-size: cover;
   }
@@ -41,9 +39,6 @@
     margin-bottom: 20px;
     position: relative;
 }
-/* .fulltext li {
-    font-size: 16px;
-} */
 
 .timeline > li:before, .timeline > li:after {
     content: " ";

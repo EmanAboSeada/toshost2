@@ -15,7 +15,6 @@
   }
 
 #home1 {
-    /* background-image: url("../img/2.jpg"); */
     max-height: 55vh;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -52,19 +51,6 @@
 .pricing:hover .plan-name {
     background-color: #f6f7fa !important;
   }
-  /* .tap-title::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 10px solid #f6f7fa;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
-  } */
   .features .left-top-icon, .features .right-top-icon{
     padding-top: 140px;
   }
@@ -82,7 +68,6 @@
     background-image: url("../img/8.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* filter: sepia(0.5); */
   background-position: center;
   background-size: cover;
   }
