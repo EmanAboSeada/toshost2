@@ -37,7 +37,7 @@
 .table-pricing tbody tr {
     width: 100%;
     background: white;
-    border-top: solid 15px #f6f7fa ;
+    border-top: solid 5px #f6f7fa ;
 }
 .table-pricing tbody tr td, .table-pricing tbody tr th {
     border: none;
@@ -103,7 +103,7 @@
     padding-left: 2rem;
 }
 .fa-shopping-cart{
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 5px;
 }
 .header-top .fa-shopping-cart{

@@ -260,6 +260,9 @@ nav a, .tap-section a {
 .blogs-wrapper figure{
   border-bottom: 5px solid #76cf48;
 }
+.navbar-nav a:hover{
+  color: #76cf48 !important;
+}
 
 
 @media only screen and (max-width: 414px) {
